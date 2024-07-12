@@ -1,0 +1,72 @@
+﻿@model IEnumerable<DoAn.ViewModel.ChiTietDatHang>
+
+@{
+    ViewBag.Title = "ShowDatHang";
+    Layout = "~/Views/Shared/AdminLayout.cshtml";
+}
+
+<h2 class="text-center">Đơn đặt hàng</h2>
+
+<div class="container mt-4">
+    <table class="table table-bordered table-hover">
+        <thead class="thead-dark">
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.ID_CTDatHang)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.ID_Khach)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.ngayDat)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Soluong)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.gia)
+                </th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.ID_CTDatHang)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.ID_Khach)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.ngayDat)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Soluong)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.gia)
+                    </td>
+                    <td>
+                        @Html.ActionLink("Delete", "XoaDonDatHang", new { id = item.ID_Dat }, new { @class = "btn btn-danger" })
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+    <div class="row">
+        <div class="col-12 text-center">
+            <!-- Pagination Section -->
+            <ul class="pagination justify-content-end">
+                @for (int i = 1; i <= ViewBag.TotalPages; i++)
+                {
+                    <li class="page-item @(i == ViewBag.CurrentPage ? "active" : "")">
+                        <a class="page-link" href="@Url.Action("ShowDatHang", new { page = i })">@i</a>
+                    </li>
+                }
+            </ul>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,612 @@
+D:\Đồ án LTW\DoAn\DoAn\bin\DoAn.dll.config
+D:\Đồ án LTW\DoAn\DoAn\bin\DoAn.dll
+D:\Đồ án LTW\DoAn\DoAn\bin\DoAn.pdb
+D:\Đồ án LTW\DoAn\DoAn\bin\roslyn\csc.exe
+D:\Đồ án LTW\DoAn\DoAn\bin\roslyn\csc.exe.config
+D:\Đồ án LTW\DoAn\DoAn\bin\roslyn\csc.rsp
+D:\Đồ án LTW\DoAn\DoAn\bin\roslyn\csi.exe
+D:\Đồ án LTW\DoAn\DoAn\bin\roslyn\csi.exe.config
+D:\Đồ án LTW\DoAn\DoAn\bin\roslyn\csi.rsp
+D:\Đồ án LTW\DoAn\DoAn\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Đồ án LTW\DoAn\DoAn\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Đồ án LTW\DoAn\DoAn\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Đồ án LTW\DoAn\DoAn\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Đồ án LTW\DoAn\DoAn\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Đồ án LTW\DoAn\DoAn\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Đồ án LTW\DoAn\DoAn\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Đồ án LTW\DoAn\DoAn\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Đồ án LTW\DoAn\DoAn\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Đồ án LTW\DoAn\DoAn\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Đồ án LTW\DoAn\DoAn\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Đồ án LTW\DoAn\DoAn\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\Đồ án LTW\DoAn\DoAn\bin\roslyn\System.AppContext.dll
+D:\Đồ án LTW\DoAn\DoAn\bin\roslyn\System.Collections.Immutable.dll
+D:\Đồ án LTW\DoAn\DoAn\bin\roslyn\System.Console.dll
+D:\Đồ án LTW\DoAn\DoAn\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\Đồ án LTW\DoAn\DoAn\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Đồ án LTW\DoAn\DoAn\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Đồ án LTW\DoAn\DoAn\bin\roslyn\System.Globalization.Calendars.dll
+D:\Đồ án LTW\DoAn\DoAn\bin\roslyn\System.IO.Compression.dll
+D:\Đồ án LTW\DoAn\DoAn\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\Đồ án LTW\DoAn\DoAn\bin\roslyn\System.IO.FileSystem.dll
+D:\Đồ án LTW\DoAn\DoAn\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Đồ án LTW\DoAn\DoAn\bin\roslyn\System.Net.Http.dll
+D:\Đồ án LTW\DoAn\DoAn\bin\roslyn\System.Net.Sockets.dll
+D:\Đồ án LTW\DoAn\DoAn\bin\roslyn\System.Reflection.Metadata.dll
+D:\Đồ án LTW\DoAn\DoAn\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\Đồ án LTW\DoAn\DoAn\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Đồ án LTW\DoAn\DoAn\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Đồ án LTW\DoAn\DoAn\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Đồ án LTW\DoAn\DoAn\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Đồ án LTW\DoAn\DoAn\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Đồ án LTW\DoAn\DoAn\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\Đồ án LTW\DoAn\DoAn\bin\roslyn\System.ValueTuple.dll
+D:\Đồ án LTW\DoAn\DoAn\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Đồ án LTW\DoAn\DoAn\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Đồ án LTW\DoAn\DoAn\bin\roslyn\System.Xml.XPath.dll
+D:\Đồ án LTW\DoAn\DoAn\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Đồ án LTW\DoAn\DoAn\bin\roslyn\vbc.exe
+D:\Đồ án LTW\DoAn\DoAn\bin\roslyn\vbc.exe.config
+D:\Đồ án LTW\DoAn\DoAn\bin\roslyn\vbc.rsp
+D:\Đồ án LTW\DoAn\DoAn\bin\roslyn\VBCSCompiler.exe
+D:\Đồ án LTW\DoAn\DoAn\bin\roslyn\VBCSCompiler.exe.config
+D:\Đồ án LTW\DoAn\DoAn\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Đồ án LTW\DoAn\DoAn\bin\Microsoft.Web.Infrastructure.dll
+D:\Đồ án LTW\DoAn\DoAn\bin\System.Web.Helpers.dll
+D:\Đồ án LTW\DoAn\DoAn\bin\System.Web.Mvc.dll
+D:\Đồ án LTW\DoAn\DoAn\bin\System.Web.Razor.dll
+D:\Đồ án LTW\DoAn\DoAn\bin\System.Web.Webpages.Deployment.dll
+D:\Đồ án LTW\DoAn\DoAn\bin\System.Web.Webpages.dll
+D:\Đồ án LTW\DoAn\DoAn\bin\System.Web.Webpages.Razor.dll
+D:\Đồ án LTW\DoAn\DoAn\bin\System.Web.Razor.xml
+D:\Đồ án LTW\DoAn\DoAn\bin\System.Web.Webpages.xml
+D:\Đồ án LTW\DoAn\DoAn\bin\System.Web.Webpages.Deployment.xml
+D:\Đồ án LTW\DoAn\DoAn\bin\System.Web.Webpages.Razor.xml
+D:\Đồ án LTW\DoAn\DoAn\bin\System.Web.Helpers.xml
+D:\Đồ án LTW\DoAn\DoAn\bin\System.Web.Mvc.xml
+D:\Đồ án LTW\DoAn\DoAn\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Đồ án LTW\DoAn\DoAn\obj\Debug\DoAn.csproj.AssemblyReference.cache
+D:\Đồ án LTW\DoAn\DoAn\obj\Debug\DoAn.csproj.CoreCompileInputs.cache
+D:\Đồ án LTW\DoAn\DoAn\obj\Debug\DoAn.csproj.CopyComplete
+D:\Đồ án LTW\DoAn\DoAn\obj\Debug\DoAn.dll
+D:\Đồ án LTW\DoAn\DoAn\obj\Debug\DoAn.pdb
+D:\Đồ án LTW\DoAn\DoAn\bin\EntityFramework.dll
+D:\Đồ án LTW\DoAn\DoAn\bin\EntityFramework.SqlServer.dll
+D:\Đồ án LTW\DoAn\DoAn\bin\EntityFramework.xml
+D:\Đồ án LTW\DoAn\DoAn\bin\EntityFramework.SqlServer.xml
+C:\Users\admin\Downloads\DoAnMoi\DoAn\DoAn\obj\Debug\DoAn.csproj.AssemblyReference.cache
+C:\Users\admin\Downloads\DoAnMoi\DoAn\DoAn\obj\Debug\DoAn.csproj.CoreCompileInputs.cache
+C:\Users\admin\Downloads\DoAnMoi\DoAn\DoAn\obj\Debug\DoAn.dll
+C:\Users\admin\Downloads\DoAnMoi\DoAn\DoAn\obj\Debug\DoAn.pdb
+C:\Users\admin\Downloads\DoAnMoi\DoAn\DoAn\bin\DoAn.dll.config
+C:\Users\admin\Downloads\DoAnMoi\DoAn\DoAn\bin\DoAn.dll
+C:\Users\admin\Downloads\DoAnMoi\DoAn\DoAn\bin\DoAn.pdb
+C:\Users\admin\Downloads\DoAnMoi\DoAn\DoAn\bin\roslyn\csc.exe
+C:\Users\admin\Downloads\DoAnMoi\DoAn\DoAn\bin\roslyn\csc.exe.config
+C:\Users\admin\Downloads\DoAnMoi\DoAn\DoAn\bin\roslyn\csc.rsp
+C:\Users\admin\Downloads\DoAnMoi\DoAn\DoAn\bin\roslyn\csi.exe
+C:\Users\admin\Downloads\DoAnMoi\DoAn\DoAn\bin\roslyn\csi.exe.config
+C:\Users\admin\Downloads\DoAnMoi\DoAn\DoAn\bin\roslyn\csi.rsp
+C:\Users\admin\Downloads\DoAnMoi\DoAn\DoAn\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\admin\Downloads\DoAnMoi\DoAn\DoAn\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\admin\Downloads\DoAnMoi\DoAn\DoAn\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\admin\Downloads\DoAnMoi\DoAn\DoAn\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\admin\Downloads\DoAnMoi\DoAn\DoAn\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\admin\Downloads\DoAnMoi\DoAn\DoAn\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\admin\Downloads\DoAnMoi\DoAn\DoAn\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\admin\Downloads\DoAnMoi\DoAn\DoAn\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\admin\Downloads\DoAnMoi\DoAn\DoAn\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\admin\Downloads\DoAnMoi\DoAn\DoAn\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\admin\Downloads\DoAnMoi\DoAn\DoAn\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\admin\Downloads\DoAnMoi\DoAn\DoAn\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\admin\Downloads\DoAnMoi\DoAn\DoAn\bin\roslyn\System.AppContext.dll
+C:\Users\admin\Downloads\DoAnMoi\DoAn\DoAn\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\admin\Downloads\DoAnMoi\DoAn\DoAn\bin\roslyn\System.Console.dll
+C:\Users\admin\Downloads\DoAnMoi\DoAn\DoAn\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\admin\Downloads\DoAnMoi\DoAn\DoAn\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\admin\Downloads\DoAnMoi\DoAn\DoAn\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\admin\Downloads\DoAnMoi\DoAn\DoAn\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\admin\Downloads\DoAnMoi\DoAn\DoAn\bin\roslyn\System.IO.Compression.dll
+C:\Users\admin\Downloads\DoAnMoi\DoAn\DoAn\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\admin\Downloads\DoAnMoi\DoAn\DoAn\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\admin\Downloads\DoAnMoi\DoAn\DoAn\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\admin\Downloads\DoAnMoi\DoAn\DoAn\bin\roslyn\System.Net.Http.dll
+C:\Users\admin\Downloads\DoAnMoi\DoAn\DoAn\bin\roslyn\System.Net.Sockets.dll
+C:\Users\admin\Downloads\DoAnMoi\DoAn\DoAn\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\admin\Downloads\DoAnMoi\DoAn\DoAn\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\admin\Downloads\DoAnMoi\DoAn\DoAn\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\admin\Downloads\DoAnMoi\DoAn\DoAn\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\admin\Downloads\DoAnMoi\DoAn\DoAn\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\admin\Downloads\DoAnMoi\DoAn\DoAn\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\admin\Downloads\DoAnMoi\DoAn\DoAn\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\admin\Downloads\DoAnMoi\DoAn\DoAn\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\admin\Downloads\DoAnMoi\DoAn\DoAn\bin\roslyn\System.ValueTuple.dll
+C:\Users\admin\Downloads\DoAnMoi\DoAn\DoAn\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\admin\Downloads\DoAnMoi\DoAn\DoAn\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\admin\Downloads\DoAnMoi\DoAn\DoAn\bin\roslyn\System.Xml.XPath.dll
+C:\Users\admin\Downloads\DoAnMoi\DoAn\DoAn\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\admin\Downloads\DoAnMoi\DoAn\DoAn\bin\roslyn\vbc.exe
+C:\Users\admin\Downloads\DoAnMoi\DoAn\DoAn\bin\roslyn\vbc.exe.config
+C:\Users\admin\Downloads\DoAnMoi\DoAn\DoAn\bin\roslyn\vbc.rsp
+C:\Users\admin\Downloads\DoAnMoi\DoAn\DoAn\bin\roslyn\VBCSCompiler.exe
+C:\Users\admin\Downloads\DoAnMoi\DoAn\DoAn\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\admin\Downloads\DoAnMoi\DoAn\DoAn\bin\EntityFramework.dll
+C:\Users\admin\Downloads\DoAnMoi\DoAn\DoAn\bin\EntityFramework.SqlServer.dll
+C:\Users\admin\Downloads\DoAnMoi\DoAn\DoAn\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\admin\Downloads\DoAnMoi\DoAn\DoAn\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\admin\Downloads\DoAnMoi\DoAn\DoAn\bin\System.Web.Helpers.dll
+C:\Users\admin\Downloads\DoAnMoi\DoAn\DoAn\bin\System.Web.Mvc.dll
+C:\Users\admin\Downloads\DoAnMoi\DoAn\DoAn\bin\System.Web.Razor.dll
+C:\Users\admin\Downloads\DoAnMoi\DoAn\DoAn\bin\System.Web.Webpages.Deployment.dll
+C:\Users\admin\Downloads\DoAnMoi\DoAn\DoAn\bin\System.Web.Webpages.dll
+C:\Users\admin\Downloads\DoAnMoi\DoAn\DoAn\bin\System.Web.Webpages.Razor.dll
+C:\Users\admin\Downloads\DoAnMoi\DoAn\DoAn\bin\EntityFramework.xml
+C:\Users\admin\Downloads\DoAnMoi\DoAn\DoAn\bin\EntityFramework.SqlServer.xml
+C:\Users\admin\Downloads\DoAnMoi\DoAn\DoAn\bin\System.Web.Razor.xml
+C:\Users\admin\Downloads\DoAnMoi\DoAn\DoAn\bin\System.Web.Webpages.xml
+C:\Users\admin\Downloads\DoAnMoi\DoAn\DoAn\bin\System.Web.Webpages.Deployment.xml
+C:\Users\admin\Downloads\DoAnMoi\DoAn\DoAn\bin\System.Web.Webpages.Razor.xml
+C:\Users\admin\Downloads\DoAnMoi\DoAn\DoAn\bin\System.Web.Helpers.xml
+C:\Users\admin\Downloads\DoAnMoi\DoAn\DoAn\bin\System.Web.Mvc.xml
+C:\Users\admin\Downloads\DoAnMoi\DoAn\DoAn\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\admin\Downloads\DoAnMoi\DoAn\DoAn\obj\Debug\DoAn.csproj.CopyComplete
+C:\Users\admin\Downloads\DoAnMoi\DoAn\DoAn\bin\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\admin\Downloads\DoAnMoi\DoAn\DoAn\bin\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\admin\Downloads\DoAnMoi\DoAn\DoAn\bin\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\admin\Downloads\DoAnMoi\DoAn\DoAn\bin\Microsoft.Extensions.Configuration.dll
+C:\Users\admin\Downloads\DoAnMoi\DoAn\DoAn\bin\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\admin\Downloads\DoAnMoi\DoAn\DoAn\bin\Microsoft.Extensions.Http.dll
+C:\Users\admin\Downloads\DoAnMoi\DoAn\DoAn\bin\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\admin\Downloads\DoAnMoi\DoAn\DoAn\bin\Microsoft.Extensions.Logging.dll
+C:\Users\admin\Downloads\DoAnMoi\DoAn\DoAn\bin\Microsoft.Extensions.Options.dll
+C:\Users\admin\Downloads\DoAnMoi\DoAn\DoAn\bin\Microsoft.Extensions.Primitives.dll
+C:\Users\admin\Downloads\DoAnMoi\DoAn\DoAn\bin\Newtonsoft.Json.dll
+C:\Users\admin\Downloads\DoAnMoi\DoAn\DoAn\bin\OpenAI_API.dll
+C:\Users\admin\Downloads\DoAnMoi\DoAn\DoAn\bin\System.Buffers.dll
+C:\Users\admin\Downloads\DoAnMoi\DoAn\DoAn\bin\System.Memory.dll
+C:\Users\admin\Downloads\DoAnMoi\DoAn\DoAn\bin\System.Net.Http.Formatting.dll
+C:\Users\admin\Downloads\DoAnMoi\DoAn\DoAn\bin\System.Numerics.Vectors.dll
+C:\Users\admin\Downloads\DoAnMoi\DoAn\DoAn\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\admin\Downloads\DoAnMoi\DoAn\DoAn\bin\System.Threading.Tasks.Extensions.dll
+C:\Users\admin\Downloads\DoAnMoi\DoAn\DoAn\bin\System.Web.Http.dll
+C:\Users\admin\Downloads\DoAnMoi\DoAn\DoAn\bin\System.Web.Http.WebHost.dll
+C:\Users\admin\Downloads\DoAnMoi\DoAn\DoAn\bin\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\admin\Downloads\DoAnMoi\DoAn\DoAn\bin\Microsoft.Extensions.Configuration.xml
+C:\Users\admin\Downloads\DoAnMoi\DoAn\DoAn\bin\Microsoft.Extensions.Configuration.Abstractions.xml
+C:\Users\admin\Downloads\DoAnMoi\DoAn\DoAn\bin\Microsoft.Extensions.Configuration.Binder.xml
+C:\Users\admin\Downloads\DoAnMoi\DoAn\DoAn\bin\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\admin\Downloads\DoAnMoi\DoAn\DoAn\bin\Microsoft.Extensions.Http.xml
+C:\Users\admin\Downloads\DoAnMoi\DoAn\DoAn\bin\Microsoft.Extensions.Logging.xml
+C:\Users\admin\Downloads\DoAnMoi\DoAn\DoAn\bin\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Users\admin\Downloads\DoAnMoi\DoAn\DoAn\bin\Microsoft.Extensions.Options.xml
+C:\Users\admin\Downloads\DoAnMoi\DoAn\DoAn\bin\Microsoft.Extensions.Primitives.xml
+C:\Users\admin\Downloads\DoAnMoi\DoAn\DoAn\bin\Newtonsoft.Json.xml
+C:\Users\admin\Downloads\DoAnMoi\DoAn\DoAn\bin\OpenAI_API.xml
+C:\Users\admin\Downloads\DoAnMoi\DoAn\DoAn\bin\System.Buffers.xml
+C:\Users\admin\Downloads\DoAnMoi\DoAn\DoAn\bin\System.Memory.xml
+C:\Users\admin\Downloads\DoAnMoi\DoAn\DoAn\bin\System.Net.Http.Formatting.xml
+C:\Users\admin\Downloads\DoAnMoi\DoAn\DoAn\bin\System.Numerics.Vectors.xml
+C:\Users\admin\Downloads\DoAnMoi\DoAn\DoAn\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\admin\Downloads\DoAnMoi\DoAn\DoAn\bin\System.Threading.Tasks.Extensions.xml
+C:\Users\admin\Downloads\DoAnMoi\DoAn\DoAn\bin\System.Web.Http.xml
+C:\Users\admin\Downloads\DoAnMoi\DoAn\DoAn\bin\System.Web.Http.WebHost.xml
+C:\Users\admin\Downloads\DoAnMoi\DoAn\DoAn\bin\GoogleAuthentication.dll
+C:\Users\admin\Downloads\DoAnMoi\DoAn\DoAn\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\admin\Downloads\DoAnMoi\DoAn\DoAn\bin\Microsoft.Owin.dll
+C:\Users\admin\Downloads\DoAnMoi\DoAn\DoAn\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\admin\Downloads\DoAnMoi\DoAn\DoAn\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\admin\Downloads\DoAnMoi\DoAn\DoAn\bin\Microsoft.Owin.Security.dll
+C:\Users\admin\Downloads\DoAnMoi\DoAn\DoAn\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\admin\Downloads\DoAnMoi\DoAn\DoAn\bin\Microsoft.PowerBI.Api.dll
+C:\Users\admin\Downloads\DoAnMoi\DoAn\DoAn\bin\Microsoft.Rest.ClientRuntime.dll
+C:\Users\admin\Downloads\DoAnMoi\DoAn\DoAn\bin\Owin.dll
+C:\Users\admin\Downloads\DoAnMoi\DoAn\DoAn\bin\System.Security.Cryptography.Cng.dll
+C:\Users\admin\Downloads\DoAnMoi\DoAn\DoAn\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\admin\Downloads\DoAnMoi\DoAn\DoAn\bin\Microsoft.Owin.xml
+C:\Users\admin\Downloads\DoAnMoi\DoAn\DoAn\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\admin\Downloads\DoAnMoi\DoAn\DoAn\bin\Microsoft.Owin.Security.xml
+C:\Users\admin\Downloads\DoAnMoi\DoAn\DoAn\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\admin\Downloads\DoAnMoi\DoAn\DoAn\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\admin\Downloads\DoAnMoi\DoAn\DoAn\bin\System.Security.Cryptography.Cng.xml
+D:\LT WEB\DoAnThat\DoAnMoi\DoAn\DoAn\bin\DoAn.dll.config
+D:\LT WEB\DoAnThat\DoAnMoi\DoAn\DoAn\bin\DoAn.dll
+D:\LT WEB\DoAnThat\DoAnMoi\DoAn\DoAn\bin\DoAn.pdb
+D:\LT WEB\DoAnThat\DoAnMoi\DoAn\DoAn\bin\roslyn\csc.exe
+D:\LT WEB\DoAnThat\DoAnMoi\DoAn\DoAn\bin\roslyn\csc.exe.config
+D:\LT WEB\DoAnThat\DoAnMoi\DoAn\DoAn\bin\roslyn\csc.rsp
+D:\LT WEB\DoAnThat\DoAnMoi\DoAn\DoAn\bin\roslyn\csi.exe
+D:\LT WEB\DoAnThat\DoAnMoi\DoAn\DoAn\bin\roslyn\csi.exe.config
+D:\LT WEB\DoAnThat\DoAnMoi\DoAn\DoAn\bin\roslyn\csi.rsp
+D:\LT WEB\DoAnThat\DoAnMoi\DoAn\DoAn\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\LT WEB\DoAnThat\DoAnMoi\DoAn\DoAn\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\LT WEB\DoAnThat\DoAnMoi\DoAn\DoAn\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\LT WEB\DoAnThat\DoAnMoi\DoAn\DoAn\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\LT WEB\DoAnThat\DoAnMoi\DoAn\DoAn\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\LT WEB\DoAnThat\DoAnMoi\DoAn\DoAn\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\LT WEB\DoAnThat\DoAnMoi\DoAn\DoAn\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\LT WEB\DoAnThat\DoAnMoi\DoAn\DoAn\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\LT WEB\DoAnThat\DoAnMoi\DoAn\DoAn\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\LT WEB\DoAnThat\DoAnMoi\DoAn\DoAn\bin\roslyn\Microsoft.Managed.Core.targets
+D:\LT WEB\DoAnThat\DoAnMoi\DoAn\DoAn\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\LT WEB\DoAnThat\DoAnMoi\DoAn\DoAn\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\LT WEB\DoAnThat\DoAnMoi\DoAn\DoAn\bin\roslyn\System.AppContext.dll
+D:\LT WEB\DoAnThat\DoAnMoi\DoAn\DoAn\bin\roslyn\System.Collections.Immutable.dll
+D:\LT WEB\DoAnThat\DoAnMoi\DoAn\DoAn\bin\roslyn\System.Console.dll
+D:\LT WEB\DoAnThat\DoAnMoi\DoAn\DoAn\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\LT WEB\DoAnThat\DoAnMoi\DoAn\DoAn\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\LT WEB\DoAnThat\DoAnMoi\DoAn\DoAn\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\LT WEB\DoAnThat\DoAnMoi\DoAn\DoAn\bin\roslyn\System.Globalization.Calendars.dll
+D:\LT WEB\DoAnThat\DoAnMoi\DoAn\DoAn\bin\roslyn\System.IO.Compression.dll
+D:\LT WEB\DoAnThat\DoAnMoi\DoAn\DoAn\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\LT WEB\DoAnThat\DoAnMoi\DoAn\DoAn\bin\roslyn\System.IO.FileSystem.dll
+D:\LT WEB\DoAnThat\DoAnMoi\DoAn\DoAn\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\LT WEB\DoAnThat\DoAnMoi\DoAn\DoAn\bin\roslyn\System.Net.Http.dll
+D:\LT WEB\DoAnThat\DoAnMoi\DoAn\DoAn\bin\roslyn\System.Net.Sockets.dll
+D:\LT WEB\DoAnThat\DoAnMoi\DoAn\DoAn\bin\roslyn\System.Reflection.Metadata.dll
+D:\LT WEB\DoAnThat\DoAnMoi\DoAn\DoAn\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\LT WEB\DoAnThat\DoAnMoi\DoAn\DoAn\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\LT WEB\DoAnThat\DoAnMoi\DoAn\DoAn\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\LT WEB\DoAnThat\DoAnMoi\DoAn\DoAn\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\LT WEB\DoAnThat\DoAnMoi\DoAn\DoAn\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\LT WEB\DoAnThat\DoAnMoi\DoAn\DoAn\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\LT WEB\DoAnThat\DoAnMoi\DoAn\DoAn\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\LT WEB\DoAnThat\DoAnMoi\DoAn\DoAn\bin\roslyn\System.ValueTuple.dll
+D:\LT WEB\DoAnThat\DoAnMoi\DoAn\DoAn\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\LT WEB\DoAnThat\DoAnMoi\DoAn\DoAn\bin\roslyn\System.Xml.XmlDocument.dll
+D:\LT WEB\DoAnThat\DoAnMoi\DoAn\DoAn\bin\roslyn\System.Xml.XPath.dll
+D:\LT WEB\DoAnThat\DoAnMoi\DoAn\DoAn\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\LT WEB\DoAnThat\DoAnMoi\DoAn\DoAn\bin\roslyn\vbc.exe
+D:\LT WEB\DoAnThat\DoAnMoi\DoAn\DoAn\bin\roslyn\vbc.exe.config
+D:\LT WEB\DoAnThat\DoAnMoi\DoAn\DoAn\bin\roslyn\vbc.rsp
+D:\LT WEB\DoAnThat\DoAnMoi\DoAn\DoAn\bin\roslyn\VBCSCompiler.exe
+D:\LT WEB\DoAnThat\DoAnMoi\DoAn\DoAn\bin\roslyn\VBCSCompiler.exe.config
+D:\LT WEB\DoAnThat\DoAnMoi\DoAn\DoAn\bin\EntityFramework.dll
+D:\LT WEB\DoAnThat\DoAnMoi\DoAn\DoAn\bin\EntityFramework.SqlServer.dll
+D:\LT WEB\DoAnThat\DoAnMoi\DoAn\DoAn\bin\GoogleAuthentication.dll
+D:\LT WEB\DoAnThat\DoAnMoi\DoAn\DoAn\bin\Microsoft.AspNet.Identity.Core.dll
+D:\LT WEB\DoAnThat\DoAnMoi\DoAn\DoAn\bin\Microsoft.Bcl.AsyncInterfaces.dll
+D:\LT WEB\DoAnThat\DoAnMoi\DoAn\DoAn\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\LT WEB\DoAnThat\DoAnMoi\DoAn\DoAn\bin\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\LT WEB\DoAnThat\DoAnMoi\DoAn\DoAn\bin\Microsoft.Extensions.Configuration.Binder.dll
+D:\LT WEB\DoAnThat\DoAnMoi\DoAn\DoAn\bin\Microsoft.Extensions.Configuration.dll
+D:\LT WEB\DoAnThat\DoAnMoi\DoAn\DoAn\bin\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\LT WEB\DoAnThat\DoAnMoi\DoAn\DoAn\bin\Microsoft.Extensions.Http.dll
+D:\LT WEB\DoAnThat\DoAnMoi\DoAn\DoAn\bin\Microsoft.Extensions.Logging.Abstractions.dll
+D:\LT WEB\DoAnThat\DoAnMoi\DoAn\DoAn\bin\Microsoft.Extensions.Logging.dll
+D:\LT WEB\DoAnThat\DoAnMoi\DoAn\DoAn\bin\Microsoft.Extensions.Options.dll
+D:\LT WEB\DoAnThat\DoAnMoi\DoAn\DoAn\bin\Microsoft.Extensions.Primitives.dll
+D:\LT WEB\DoAnThat\DoAnMoi\DoAn\DoAn\bin\Microsoft.Owin.dll
+D:\LT WEB\DoAnThat\DoAnMoi\DoAn\DoAn\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\LT WEB\DoAnThat\DoAnMoi\DoAn\DoAn\bin\Microsoft.Owin.Security.Cookies.dll
+D:\LT WEB\DoAnThat\DoAnMoi\DoAn\DoAn\bin\Microsoft.Owin.Security.dll
+D:\LT WEB\DoAnThat\DoAnMoi\DoAn\DoAn\bin\Microsoft.Owin.Security.Google.dll
+D:\LT WEB\DoAnThat\DoAnMoi\DoAn\DoAn\bin\Microsoft.PowerBI.Api.dll
+D:\LT WEB\DoAnThat\DoAnMoi\DoAn\DoAn\bin\Microsoft.Rest.ClientRuntime.dll
+D:\LT WEB\DoAnThat\DoAnMoi\DoAn\DoAn\bin\Microsoft.Web.Infrastructure.dll
+D:\LT WEB\DoAnThat\DoAnMoi\DoAn\DoAn\bin\Newtonsoft.Json.dll
+D:\LT WEB\DoAnThat\DoAnMoi\DoAn\DoAn\bin\OpenAI_API.dll
+D:\LT WEB\DoAnThat\DoAnMoi\DoAn\DoAn\bin\Owin.dll
+D:\LT WEB\DoAnThat\DoAnMoi\DoAn\DoAn\bin\System.Buffers.dll
+D:\LT WEB\DoAnThat\DoAnMoi\DoAn\DoAn\bin\System.Memory.dll
+D:\LT WEB\DoAnThat\DoAnMoi\DoAn\DoAn\bin\System.Net.Http.Formatting.dll
+D:\LT WEB\DoAnThat\DoAnMoi\DoAn\DoAn\bin\System.Numerics.Vectors.dll
+D:\LT WEB\DoAnThat\DoAnMoi\DoAn\DoAn\bin\System.Runtime.CompilerServices.Unsafe.dll
+D:\LT WEB\DoAnThat\DoAnMoi\DoAn\DoAn\bin\System.Security.Cryptography.Cng.dll
+D:\LT WEB\DoAnThat\DoAnMoi\DoAn\DoAn\bin\System.Threading.Tasks.Extensions.dll
+D:\LT WEB\DoAnThat\DoAnMoi\DoAn\DoAn\bin\System.Web.Helpers.dll
+D:\LT WEB\DoAnThat\DoAnMoi\DoAn\DoAn\bin\System.Web.Http.dll
+D:\LT WEB\DoAnThat\DoAnMoi\DoAn\DoAn\bin\System.Web.Http.WebHost.dll
+D:\LT WEB\DoAnThat\DoAnMoi\DoAn\DoAn\bin\System.Web.Mvc.dll
+D:\LT WEB\DoAnThat\DoAnMoi\DoAn\DoAn\bin\System.Web.Razor.dll
+D:\LT WEB\DoAnThat\DoAnMoi\DoAn\DoAn\bin\System.Web.Webpages.Deployment.dll
+D:\LT WEB\DoAnThat\DoAnMoi\DoAn\DoAn\bin\System.Web.Webpages.dll
+D:\LT WEB\DoAnThat\DoAnMoi\DoAn\DoAn\bin\System.Web.Webpages.Razor.dll
+D:\LT WEB\DoAnThat\DoAnMoi\DoAn\DoAn\bin\EntityFramework.xml
+D:\LT WEB\DoAnThat\DoAnMoi\DoAn\DoAn\bin\EntityFramework.SqlServer.xml
+D:\LT WEB\DoAnThat\DoAnMoi\DoAn\DoAn\bin\Microsoft.AspNet.Identity.Core.xml
+D:\LT WEB\DoAnThat\DoAnMoi\DoAn\DoAn\bin\Microsoft.Bcl.AsyncInterfaces.xml
+D:\LT WEB\DoAnThat\DoAnMoi\DoAn\DoAn\bin\Microsoft.Extensions.Configuration.xml
+D:\LT WEB\DoAnThat\DoAnMoi\DoAn\DoAn\bin\Microsoft.Extensions.Configuration.Abstractions.xml
+D:\LT WEB\DoAnThat\DoAnMoi\DoAn\DoAn\bin\Microsoft.Extensions.Configuration.Binder.xml
+D:\LT WEB\DoAnThat\DoAnMoi\DoAn\DoAn\bin\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+D:\LT WEB\DoAnThat\DoAnMoi\DoAn\DoAn\bin\Microsoft.Extensions.Http.xml
+D:\LT WEB\DoAnThat\DoAnMoi\DoAn\DoAn\bin\Microsoft.Extensions.Logging.xml
+D:\LT WEB\DoAnThat\DoAnMoi\DoAn\DoAn\bin\Microsoft.Extensions.Logging.Abstractions.xml
+D:\LT WEB\DoAnThat\DoAnMoi\DoAn\DoAn\bin\Microsoft.Extensions.Options.xml
+D:\LT WEB\DoAnThat\DoAnMoi\DoAn\DoAn\bin\Microsoft.Extensions.Primitives.xml
+D:\LT WEB\DoAnThat\DoAnMoi\DoAn\DoAn\bin\Microsoft.Owin.xml
+D:\LT WEB\DoAnThat\DoAnMoi\DoAn\DoAn\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\LT WEB\DoAnThat\DoAnMoi\DoAn\DoAn\bin\Microsoft.Owin.Security.xml
+D:\LT WEB\DoAnThat\DoAnMoi\DoAn\DoAn\bin\Microsoft.Owin.Security.Cookies.xml
+D:\LT WEB\DoAnThat\DoAnMoi\DoAn\DoAn\bin\Microsoft.Owin.Security.Google.xml
+D:\LT WEB\DoAnThat\DoAnMoi\DoAn\DoAn\bin\Newtonsoft.Json.xml
+D:\LT WEB\DoAnThat\DoAnMoi\DoAn\DoAn\bin\OpenAI_API.xml
+D:\LT WEB\DoAnThat\DoAnMoi\DoAn\DoAn\bin\System.Buffers.xml
+D:\LT WEB\DoAnThat\DoAnMoi\DoAn\DoAn\bin\System.Memory.xml
+D:\LT WEB\DoAnThat\DoAnMoi\DoAn\DoAn\bin\System.Net.Http.Formatting.xml
+D:\LT WEB\DoAnThat\DoAnMoi\DoAn\DoAn\bin\System.Numerics.Vectors.xml
+D:\LT WEB\DoAnThat\DoAnMoi\DoAn\DoAn\bin\System.Runtime.CompilerServices.Unsafe.xml
+D:\LT WEB\DoAnThat\DoAnMoi\DoAn\DoAn\bin\System.Security.Cryptography.Cng.xml
+D:\LT WEB\DoAnThat\DoAnMoi\DoAn\DoAn\bin\System.Threading.Tasks.Extensions.xml
+D:\LT WEB\DoAnThat\DoAnMoi\DoAn\DoAn\bin\System.Web.Http.xml
+D:\LT WEB\DoAnThat\DoAnMoi\DoAn\DoAn\bin\System.Web.Http.WebHost.xml
+D:\LT WEB\DoAnThat\DoAnMoi\DoAn\DoAn\bin\System.Web.Razor.xml
+D:\LT WEB\DoAnThat\DoAnMoi\DoAn\DoAn\bin\System.Web.Webpages.xml
+D:\LT WEB\DoAnThat\DoAnMoi\DoAn\DoAn\bin\System.Web.Webpages.Deployment.xml
+D:\LT WEB\DoAnThat\DoAnMoi\DoAn\DoAn\bin\System.Web.Webpages.Razor.xml
+D:\LT WEB\DoAnThat\DoAnMoi\DoAn\DoAn\bin\System.Web.Helpers.xml
+D:\LT WEB\DoAnThat\DoAnMoi\DoAn\DoAn\bin\System.Web.Mvc.xml
+D:\LT WEB\DoAnThat\DoAnMoi\DoAn\DoAn\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\LT WEB\DoAnThat\DoAnMoi\DoAn\DoAn\obj\Debug\DoAn.csproj.AssemblyReference.cache
+D:\LT WEB\DoAnThat\DoAnMoi\DoAn\DoAn\obj\Debug\DoAn.csproj.CoreCompileInputs.cache
+D:\LT WEB\DoAnThat\DoAnMoi\DoAn\DoAn\obj\Debug\DoAn.csproj.CopyComplete
+D:\LT WEB\DoAnThat\DoAnMoi\DoAn\DoAn\obj\Debug\DoAn.dll
+D:\LT WEB\DoAnThat\DoAnMoi\DoAn\DoAn\obj\Debug\DoAn.pdb
+D:\Lập trình web\DoAnMoi\DoAn\DoAn\bin\DoAn.dll.config
+D:\Lập trình web\DoAnMoi\DoAn\DoAn\bin\DoAn.dll
+D:\Lập trình web\DoAnMoi\DoAn\DoAn\bin\DoAn.pdb
+D:\Lập trình web\DoAnMoi\DoAn\DoAn\bin\roslyn\csc.exe
+D:\Lập trình web\DoAnMoi\DoAn\DoAn\bin\roslyn\csc.exe.config
+D:\Lập trình web\DoAnMoi\DoAn\DoAn\bin\roslyn\csc.rsp
+D:\Lập trình web\DoAnMoi\DoAn\DoAn\bin\roslyn\csi.exe
+D:\Lập trình web\DoAnMoi\DoAn\DoAn\bin\roslyn\csi.exe.config
+D:\Lập trình web\DoAnMoi\DoAn\DoAn\bin\roslyn\csi.rsp
+D:\Lập trình web\DoAnMoi\DoAn\DoAn\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Lập trình web\DoAnMoi\DoAn\DoAn\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Lập trình web\DoAnMoi\DoAn\DoAn\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Lập trình web\DoAnMoi\DoAn\DoAn\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Lập trình web\DoAnMoi\DoAn\DoAn\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Lập trình web\DoAnMoi\DoAn\DoAn\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Lập trình web\DoAnMoi\DoAn\DoAn\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Lập trình web\DoAnMoi\DoAn\DoAn\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Lập trình web\DoAnMoi\DoAn\DoAn\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Lập trình web\DoAnMoi\DoAn\DoAn\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Lập trình web\DoAnMoi\DoAn\DoAn\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Lập trình web\DoAnMoi\DoAn\DoAn\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\Lập trình web\DoAnMoi\DoAn\DoAn\bin\roslyn\System.AppContext.dll
+D:\Lập trình web\DoAnMoi\DoAn\DoAn\bin\roslyn\System.Collections.Immutable.dll
+D:\Lập trình web\DoAnMoi\DoAn\DoAn\bin\roslyn\System.Console.dll
+D:\Lập trình web\DoAnMoi\DoAn\DoAn\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\Lập trình web\DoAnMoi\DoAn\DoAn\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Lập trình web\DoAnMoi\DoAn\DoAn\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Lập trình web\DoAnMoi\DoAn\DoAn\bin\roslyn\System.Globalization.Calendars.dll
+D:\Lập trình web\DoAnMoi\DoAn\DoAn\bin\roslyn\System.IO.Compression.dll
+D:\Lập trình web\DoAnMoi\DoAn\DoAn\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\Lập trình web\DoAnMoi\DoAn\DoAn\bin\roslyn\System.IO.FileSystem.dll
+D:\Lập trình web\DoAnMoi\DoAn\DoAn\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Lập trình web\DoAnMoi\DoAn\DoAn\bin\roslyn\System.Net.Http.dll
+D:\Lập trình web\DoAnMoi\DoAn\DoAn\bin\roslyn\System.Net.Sockets.dll
+D:\Lập trình web\DoAnMoi\DoAn\DoAn\bin\roslyn\System.Reflection.Metadata.dll
+D:\Lập trình web\DoAnMoi\DoAn\DoAn\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\Lập trình web\DoAnMoi\DoAn\DoAn\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Lập trình web\DoAnMoi\DoAn\DoAn\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Lập trình web\DoAnMoi\DoAn\DoAn\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Lập trình web\DoAnMoi\DoAn\DoAn\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Lập trình web\DoAnMoi\DoAn\DoAn\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Lập trình web\DoAnMoi\DoAn\DoAn\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\Lập trình web\DoAnMoi\DoAn\DoAn\bin\roslyn\System.ValueTuple.dll
+D:\Lập trình web\DoAnMoi\DoAn\DoAn\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Lập trình web\DoAnMoi\DoAn\DoAn\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Lập trình web\DoAnMoi\DoAn\DoAn\bin\roslyn\System.Xml.XPath.dll
+D:\Lập trình web\DoAnMoi\DoAn\DoAn\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Lập trình web\DoAnMoi\DoAn\DoAn\bin\roslyn\vbc.exe
+D:\Lập trình web\DoAnMoi\DoAn\DoAn\bin\roslyn\vbc.exe.config
+D:\Lập trình web\DoAnMoi\DoAn\DoAn\bin\roslyn\vbc.rsp
+D:\Lập trình web\DoAnMoi\DoAn\DoAn\bin\roslyn\VBCSCompiler.exe
+D:\Lập trình web\DoAnMoi\DoAn\DoAn\bin\roslyn\VBCSCompiler.exe.config
+D:\Lập trình web\DoAnMoi\DoAn\DoAn\bin\EntityFramework.dll
+D:\Lập trình web\DoAnMoi\DoAn\DoAn\bin\EntityFramework.SqlServer.dll
+D:\Lập trình web\DoAnMoi\DoAn\DoAn\bin\GoogleAuthentication.dll
+D:\Lập trình web\DoAnMoi\DoAn\DoAn\bin\Microsoft.AspNet.Identity.Core.dll
+D:\Lập trình web\DoAnMoi\DoAn\DoAn\bin\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Lập trình web\DoAnMoi\DoAn\DoAn\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Lập trình web\DoAnMoi\DoAn\DoAn\bin\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\Lập trình web\DoAnMoi\DoAn\DoAn\bin\Microsoft.Extensions.Configuration.Binder.dll
+D:\Lập trình web\DoAnMoi\DoAn\DoAn\bin\Microsoft.Extensions.Configuration.dll
+D:\Lập trình web\DoAnMoi\DoAn\DoAn\bin\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Lập trình web\DoAnMoi\DoAn\DoAn\bin\Microsoft.Extensions.Http.dll
+D:\Lập trình web\DoAnMoi\DoAn\DoAn\bin\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Lập trình web\DoAnMoi\DoAn\DoAn\bin\Microsoft.Extensions.Logging.dll
+D:\Lập trình web\DoAnMoi\DoAn\DoAn\bin\Microsoft.Extensions.Options.dll
+D:\Lập trình web\DoAnMoi\DoAn\DoAn\bin\Microsoft.Extensions.Primitives.dll
+D:\Lập trình web\DoAnMoi\DoAn\DoAn\bin\Microsoft.Owin.dll
+D:\Lập trình web\DoAnMoi\DoAn\DoAn\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\Lập trình web\DoAnMoi\DoAn\DoAn\bin\Microsoft.Owin.Security.Cookies.dll
+D:\Lập trình web\DoAnMoi\DoAn\DoAn\bin\Microsoft.Owin.Security.dll
+D:\Lập trình web\DoAnMoi\DoAn\DoAn\bin\Microsoft.Owin.Security.Google.dll
+D:\Lập trình web\DoAnMoi\DoAn\DoAn\bin\Microsoft.PowerBI.Api.dll
+D:\Lập trình web\DoAnMoi\DoAn\DoAn\bin\Microsoft.Rest.ClientRuntime.dll
+D:\Lập trình web\DoAnMoi\DoAn\DoAn\bin\Microsoft.Web.Infrastructure.dll
+D:\Lập trình web\DoAnMoi\DoAn\DoAn\bin\Newtonsoft.Json.dll
+D:\Lập trình web\DoAnMoi\DoAn\DoAn\bin\OpenAI_API.dll
+D:\Lập trình web\DoAnMoi\DoAn\DoAn\bin\Owin.dll
+D:\Lập trình web\DoAnMoi\DoAn\DoAn\bin\System.Buffers.dll
+D:\Lập trình web\DoAnMoi\DoAn\DoAn\bin\System.Memory.dll
+D:\Lập trình web\DoAnMoi\DoAn\DoAn\bin\System.Net.Http.Formatting.dll
+D:\Lập trình web\DoAnMoi\DoAn\DoAn\bin\System.Numerics.Vectors.dll
+D:\Lập trình web\DoAnMoi\DoAn\DoAn\bin\System.Runtime.CompilerServices.Unsafe.dll
+D:\Lập trình web\DoAnMoi\DoAn\DoAn\bin\System.Security.Cryptography.Cng.dll
+D:\Lập trình web\DoAnMoi\DoAn\DoAn\bin\System.Threading.Tasks.Extensions.dll
+D:\Lập trình web\DoAnMoi\DoAn\DoAn\bin\System.Web.Helpers.dll
+D:\Lập trình web\DoAnMoi\DoAn\DoAn\bin\System.Web.Http.dll
+D:\Lập trình web\DoAnMoi\DoAn\DoAn\bin\System.Web.Http.WebHost.dll
+D:\Lập trình web\DoAnMoi\DoAn\DoAn\bin\System.Web.Mvc.dll
+D:\Lập trình web\DoAnMoi\DoAn\DoAn\bin\System.Web.Razor.dll
+D:\Lập trình web\DoAnMoi\DoAn\DoAn\bin\System.Web.Webpages.Deployment.dll
+D:\Lập trình web\DoAnMoi\DoAn\DoAn\bin\System.Web.Webpages.dll
+D:\Lập trình web\DoAnMoi\DoAn\DoAn\bin\System.Web.Webpages.Razor.dll
+D:\Lập trình web\DoAnMoi\DoAn\DoAn\bin\EntityFramework.xml
+D:\Lập trình web\DoAnMoi\DoAn\DoAn\bin\EntityFramework.SqlServer.xml
+D:\Lập trình web\DoAnMoi\DoAn\DoAn\bin\Microsoft.AspNet.Identity.Core.xml
+D:\Lập trình web\DoAnMoi\DoAn\DoAn\bin\Microsoft.Bcl.AsyncInterfaces.xml
+D:\Lập trình web\DoAnMoi\DoAn\DoAn\bin\Microsoft.Extensions.Configuration.xml
+D:\Lập trình web\DoAnMoi\DoAn\DoAn\bin\Microsoft.Extensions.Configuration.Abstractions.xml
+D:\Lập trình web\DoAnMoi\DoAn\DoAn\bin\Microsoft.Extensions.Configuration.Binder.xml
+D:\Lập trình web\DoAnMoi\DoAn\DoAn\bin\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+D:\Lập trình web\DoAnMoi\DoAn\DoAn\bin\Microsoft.Extensions.Http.xml
+D:\Lập trình web\DoAnMoi\DoAn\DoAn\bin\Microsoft.Extensions.Logging.xml
+D:\Lập trình web\DoAnMoi\DoAn\DoAn\bin\Microsoft.Extensions.Logging.Abstractions.xml
+D:\Lập trình web\DoAnMoi\DoAn\DoAn\bin\Microsoft.Extensions.Options.xml
+D:\Lập trình web\DoAnMoi\DoAn\DoAn\bin\Microsoft.Extensions.Primitives.xml
+D:\Lập trình web\DoAnMoi\DoAn\DoAn\bin\Microsoft.Owin.xml
+D:\Lập trình web\DoAnMoi\DoAn\DoAn\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\Lập trình web\DoAnMoi\DoAn\DoAn\bin\Microsoft.Owin.Security.xml
+D:\Lập trình web\DoAnMoi\DoAn\DoAn\bin\Microsoft.Owin.Security.Cookies.xml
+D:\Lập trình web\DoAnMoi\DoAn\DoAn\bin\Microsoft.Owin.Security.Google.xml
+D:\Lập trình web\DoAnMoi\DoAn\DoAn\bin\Newtonsoft.Json.xml
+D:\Lập trình web\DoAnMoi\DoAn\DoAn\bin\OpenAI_API.xml
+D:\Lập trình web\DoAnMoi\DoAn\DoAn\bin\System.Buffers.xml
+D:\Lập trình web\DoAnMoi\DoAn\DoAn\bin\System.Memory.xml
+D:\Lập trình web\DoAnMoi\DoAn\DoAn\bin\System.Net.Http.Formatting.xml
+D:\Lập trình web\DoAnMoi\DoAn\DoAn\bin\System.Numerics.Vectors.xml
+D:\Lập trình web\DoAnMoi\DoAn\DoAn\bin\System.Runtime.CompilerServices.Unsafe.xml
+D:\Lập trình web\DoAnMoi\DoAn\DoAn\bin\System.Security.Cryptography.Cng.xml
+D:\Lập trình web\DoAnMoi\DoAn\DoAn\bin\System.Threading.Tasks.Extensions.xml
+D:\Lập trình web\DoAnMoi\DoAn\DoAn\bin\System.Web.Http.xml
+D:\Lập trình web\DoAnMoi\DoAn\DoAn\bin\System.Web.Http.WebHost.xml
+D:\Lập trình web\DoAnMoi\DoAn\DoAn\bin\System.Web.Razor.xml
+D:\Lập trình web\DoAnMoi\DoAn\DoAn\bin\System.Web.Webpages.xml
+D:\Lập trình web\DoAnMoi\DoAn\DoAn\bin\System.Web.Webpages.Deployment.xml
+D:\Lập trình web\DoAnMoi\DoAn\DoAn\bin\System.Web.Webpages.Razor.xml
+D:\Lập trình web\DoAnMoi\DoAn\DoAn\bin\System.Web.Helpers.xml
+D:\Lập trình web\DoAnMoi\DoAn\DoAn\bin\System.Web.Mvc.xml
+D:\Lập trình web\DoAnMoi\DoAn\DoAn\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Lập trình web\DoAnMoi\DoAn\DoAn\obj\Debug\DoAn.csproj.AssemblyReference.cache
+D:\Lập trình web\DoAnMoi\DoAn\DoAn\obj\Debug\DoAn.csproj.CoreCompileInputs.cache
+D:\Lập trình web\DoAnMoi\DoAn\DoAn\obj\Debug\DoAn.csproj.CopyComplete
+D:\Lập trình web\DoAnMoi\DoAn\DoAn\obj\Debug\DoAn.dll
+D:\Lập trình web\DoAnMoi\DoAn\DoAn\obj\Debug\DoAn.pdb
+D:\Lưu trữ các đồ án môn học\Nhóm4_Website quản lý bán giày FILA\DoAnMoi\DoAn\DoAn\bin\DoAn.dll.config
+D:\Lưu trữ các đồ án môn học\Nhóm4_Website quản lý bán giày FILA\DoAnMoi\DoAn\DoAn\bin\DoAn.dll
+D:\Lưu trữ các đồ án môn học\Nhóm4_Website quản lý bán giày FILA\DoAnMoi\DoAn\DoAn\bin\DoAn.pdb
+D:\Lưu trữ các đồ án môn học\Nhóm4_Website quản lý bán giày FILA\DoAnMoi\DoAn\DoAn\bin\roslyn\csc.exe
+D:\Lưu trữ các đồ án môn học\Nhóm4_Website quản lý bán giày FILA\DoAnMoi\DoAn\DoAn\bin\roslyn\csc.exe.config
+D:\Lưu trữ các đồ án môn học\Nhóm4_Website quản lý bán giày FILA\DoAnMoi\DoAn\DoAn\bin\roslyn\csc.rsp
+D:\Lưu trữ các đồ án môn học\Nhóm4_Website quản lý bán giày FILA\DoAnMoi\DoAn\DoAn\bin\roslyn\csi.exe
+D:\Lưu trữ các đồ án môn học\Nhóm4_Website quản lý bán giày FILA\DoAnMoi\DoAn\DoAn\bin\roslyn\csi.exe.config
+D:\Lưu trữ các đồ án môn học\Nhóm4_Website quản lý bán giày FILA\DoAnMoi\DoAn\DoAn\bin\roslyn\csi.rsp
+D:\Lưu trữ các đồ án môn học\Nhóm4_Website quản lý bán giày FILA\DoAnMoi\DoAn\DoAn\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Lưu trữ các đồ án môn học\Nhóm4_Website quản lý bán giày FILA\DoAnMoi\DoAn\DoAn\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Lưu trữ các đồ án môn học\Nhóm4_Website quản lý bán giày FILA\DoAnMoi\DoAn\DoAn\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Lưu trữ các đồ án môn học\Nhóm4_Website quản lý bán giày FILA\DoAnMoi\DoAn\DoAn\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Lưu trữ các đồ án môn học\Nhóm4_Website quản lý bán giày FILA\DoAnMoi\DoAn\DoAn\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Lưu trữ các đồ án môn học\Nhóm4_Website quản lý bán giày FILA\DoAnMoi\DoAn\DoAn\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Lưu trữ các đồ án môn học\Nhóm4_Website quản lý bán giày FILA\DoAnMoi\DoAn\DoAn\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Lưu trữ các đồ án môn học\Nhóm4_Website quản lý bán giày FILA\DoAnMoi\DoAn\DoAn\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Lưu trữ các đồ án môn học\Nhóm4_Website quản lý bán giày FILA\DoAnMoi\DoAn\DoAn\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Lưu trữ các đồ án môn học\Nhóm4_Website quản lý bán giày FILA\DoAnMoi\DoAn\DoAn\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Lưu trữ các đồ án môn học\Nhóm4_Website quản lý bán giày FILA\DoAnMoi\DoAn\DoAn\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Lưu trữ các đồ án môn học\Nhóm4_Website quản lý bán giày FILA\DoAnMoi\DoAn\DoAn\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\Lưu trữ các đồ án môn học\Nhóm4_Website quản lý bán giày FILA\DoAnMoi\DoAn\DoAn\bin\roslyn\System.AppContext.dll
+D:\Lưu trữ các đồ án môn học\Nhóm4_Website quản lý bán giày FILA\DoAnMoi\DoAn\DoAn\bin\roslyn\System.Collections.Immutable.dll
+D:\Lưu trữ các đồ án môn học\Nhóm4_Website quản lý bán giày FILA\DoAnMoi\DoAn\DoAn\bin\roslyn\System.Console.dll
+D:\Lưu trữ các đồ án môn học\Nhóm4_Website quản lý bán giày FILA\DoAnMoi\DoAn\DoAn\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\Lưu trữ các đồ án môn học\Nhóm4_Website quản lý bán giày FILA\DoAnMoi\DoAn\DoAn\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Lưu trữ các đồ án môn học\Nhóm4_Website quản lý bán giày FILA\DoAnMoi\DoAn\DoAn\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Lưu trữ các đồ án môn học\Nhóm4_Website quản lý bán giày FILA\DoAnMoi\DoAn\DoAn\bin\roslyn\System.Globalization.Calendars.dll
+D:\Lưu trữ các đồ án môn học\Nhóm4_Website quản lý bán giày FILA\DoAnMoi\DoAn\DoAn\bin\roslyn\System.IO.Compression.dll
+D:\Lưu trữ các đồ án môn học\Nhóm4_Website quản lý bán giày FILA\DoAnMoi\DoAn\DoAn\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\Lưu trữ các đồ án môn học\Nhóm4_Website quản lý bán giày FILA\DoAnMoi\DoAn\DoAn\bin\roslyn\System.IO.FileSystem.dll
+D:\Lưu trữ các đồ án môn học\Nhóm4_Website quản lý bán giày FILA\DoAnMoi\DoAn\DoAn\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Lưu trữ các đồ án môn học\Nhóm4_Website quản lý bán giày FILA\DoAnMoi\DoAn\DoAn\bin\roslyn\System.Net.Http.dll
+D:\Lưu trữ các đồ án môn học\Nhóm4_Website quản lý bán giày FILA\DoAnMoi\DoAn\DoAn\bin\roslyn\System.Net.Sockets.dll
+D:\Lưu trữ các đồ án môn học\Nhóm4_Website quản lý bán giày FILA\DoAnMoi\DoAn\DoAn\bin\roslyn\System.Reflection.Metadata.dll
+D:\Lưu trữ các đồ án môn học\Nhóm4_Website quản lý bán giày FILA\DoAnMoi\DoAn\DoAn\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\Lưu trữ các đồ án môn học\Nhóm4_Website quản lý bán giày FILA\DoAnMoi\DoAn\DoAn\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Lưu trữ các đồ án môn học\Nhóm4_Website quản lý bán giày FILA\DoAnMoi\DoAn\DoAn\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Lưu trữ các đồ án môn học\Nhóm4_Website quản lý bán giày FILA\DoAnMoi\DoAn\DoAn\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Lưu trữ các đồ án môn học\Nhóm4_Website quản lý bán giày FILA\DoAnMoi\DoAn\DoAn\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Lưu trữ các đồ án môn học\Nhóm4_Website quản lý bán giày FILA\DoAnMoi\DoAn\DoAn\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Lưu trữ các đồ án môn học\Nhóm4_Website quản lý bán giày FILA\DoAnMoi\DoAn\DoAn\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\Lưu trữ các đồ án môn học\Nhóm4_Website quản lý bán giày FILA\DoAnMoi\DoAn\DoAn\bin\roslyn\System.ValueTuple.dll
+D:\Lưu trữ các đồ án môn học\Nhóm4_Website quản lý bán giày FILA\DoAnMoi\DoAn\DoAn\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Lưu trữ các đồ án môn học\Nhóm4_Website quản lý bán giày FILA\DoAnMoi\DoAn\DoAn\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Lưu trữ các đồ án môn học\Nhóm4_Website quản lý bán giày FILA\DoAnMoi\DoAn\DoAn\bin\roslyn\System.Xml.XPath.dll
+D:\Lưu trữ các đồ án môn học\Nhóm4_Website quản lý bán giày FILA\DoAnMoi\DoAn\DoAn\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Lưu trữ các đồ án môn học\Nhóm4_Website quản lý bán giày FILA\DoAnMoi\DoAn\DoAn\bin\roslyn\vbc.exe
+D:\Lưu trữ các đồ án môn học\Nhóm4_Website quản lý bán giày FILA\DoAnMoi\DoAn\DoAn\bin\roslyn\vbc.exe.config
+D:\Lưu trữ các đồ án môn học\Nhóm4_Website quản lý bán giày FILA\DoAnMoi\DoAn\DoAn\bin\roslyn\vbc.rsp
+D:\Lưu trữ các đồ án môn học\Nhóm4_Website quản lý bán giày FILA\DoAnMoi\DoAn\DoAn\bin\roslyn\VBCSCompiler.exe
+D:\Lưu trữ các đồ án môn học\Nhóm4_Website quản lý bán giày FILA\DoAnMoi\DoAn\DoAn\bin\roslyn\VBCSCompiler.exe.config
+D:\Lưu trữ các đồ án môn học\Nhóm4_Website quản lý bán giày FILA\DoAnMoi\DoAn\DoAn\bin\EntityFramework.dll
+D:\Lưu trữ các đồ án môn học\Nhóm4_Website quản lý bán giày FILA\DoAnMoi\DoAn\DoAn\bin\EntityFramework.SqlServer.dll
+D:\Lưu trữ các đồ án môn học\Nhóm4_Website quản lý bán giày FILA\DoAnMoi\DoAn\DoAn\bin\GoogleAuthentication.dll
+D:\Lưu trữ các đồ án môn học\Nhóm4_Website quản lý bán giày FILA\DoAnMoi\DoAn\DoAn\bin\Microsoft.AspNet.Identity.Core.dll
+D:\Lưu trữ các đồ án môn học\Nhóm4_Website quản lý bán giày FILA\DoAnMoi\DoAn\DoAn\bin\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Lưu trữ các đồ án môn học\Nhóm4_Website quản lý bán giày FILA\DoAnMoi\DoAn\DoAn\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Lưu trữ các đồ án môn học\Nhóm4_Website quản lý bán giày FILA\DoAnMoi\DoAn\DoAn\bin\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\Lưu trữ các đồ án môn học\Nhóm4_Website quản lý bán giày FILA\DoAnMoi\DoAn\DoAn\bin\Microsoft.Extensions.Configuration.Binder.dll
+D:\Lưu trữ các đồ án môn học\Nhóm4_Website quản lý bán giày FILA\DoAnMoi\DoAn\DoAn\bin\Microsoft.Extensions.Configuration.dll
+D:\Lưu trữ các đồ án môn học\Nhóm4_Website quản lý bán giày FILA\DoAnMoi\DoAn\DoAn\bin\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Lưu trữ các đồ án môn học\Nhóm4_Website quản lý bán giày FILA\DoAnMoi\DoAn\DoAn\bin\Microsoft.Extensions.Http.dll
+D:\Lưu trữ các đồ án môn học\Nhóm4_Website quản lý bán giày FILA\DoAnMoi\DoAn\DoAn\bin\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Lưu trữ các đồ án môn học\Nhóm4_Website quản lý bán giày FILA\DoAnMoi\DoAn\DoAn\bin\Microsoft.Extensions.Logging.dll
+D:\Lưu trữ các đồ án môn học\Nhóm4_Website quản lý bán giày FILA\DoAnMoi\DoAn\DoAn\bin\Microsoft.Extensions.Options.dll
+D:\Lưu trữ các đồ án môn học\Nhóm4_Website quản lý bán giày FILA\DoAnMoi\DoAn\DoAn\bin\Microsoft.Extensions.Primitives.dll
+D:\Lưu trữ các đồ án môn học\Nhóm4_Website quản lý bán giày FILA\DoAnMoi\DoAn\DoAn\bin\Microsoft.Owin.dll
+D:\Lưu trữ các đồ án môn học\Nhóm4_Website quản lý bán giày FILA\DoAnMoi\DoAn\DoAn\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\Lưu trữ các đồ án môn học\Nhóm4_Website quản lý bán giày FILA\DoAnMoi\DoAn\DoAn\bin\Microsoft.Owin.Security.Cookies.dll
+D:\Lưu trữ các đồ án môn học\Nhóm4_Website quản lý bán giày FILA\DoAnMoi\DoAn\DoAn\bin\Microsoft.Owin.Security.dll
+D:\Lưu trữ các đồ án môn học\Nhóm4_Website quản lý bán giày FILA\DoAnMoi\DoAn\DoAn\bin\Microsoft.Owin.Security.Google.dll
+D:\Lưu trữ các đồ án môn học\Nhóm4_Website quản lý bán giày FILA\DoAnMoi\DoAn\DoAn\bin\Microsoft.PowerBI.Api.dll
+D:\Lưu trữ các đồ án môn học\Nhóm4_Website quản lý bán giày FILA\DoAnMoi\DoAn\DoAn\bin\Microsoft.Rest.ClientRuntime.dll
+D:\Lưu trữ các đồ án môn học\Nhóm4_Website quản lý bán giày FILA\DoAnMoi\DoAn\DoAn\bin\Microsoft.Web.Infrastructure.dll
+D:\Lưu trữ các đồ án môn học\Nhóm4_Website quản lý bán giày FILA\DoAnMoi\DoAn\DoAn\bin\Newtonsoft.Json.dll
+D:\Lưu trữ các đồ án môn học\Nhóm4_Website quản lý bán giày FILA\DoAnMoi\DoAn\DoAn\bin\OpenAI_API.dll
+D:\Lưu trữ các đồ án môn học\Nhóm4_Website quản lý bán giày FILA\DoAnMoi\DoAn\DoAn\bin\Owin.dll
+D:\Lưu trữ các đồ án môn học\Nhóm4_Website quản lý bán giày FILA\DoAnMoi\DoAn\DoAn\bin\System.Buffers.dll
+D:\Lưu trữ các đồ án môn học\Nhóm4_Website quản lý bán giày FILA\DoAnMoi\DoAn\DoAn\bin\System.Memory.dll
+D:\Lưu trữ các đồ án môn học\Nhóm4_Website quản lý bán giày FILA\DoAnMoi\DoAn\DoAn\bin\System.Net.Http.Formatting.dll
+D:\Lưu trữ các đồ án môn học\Nhóm4_Website quản lý bán giày FILA\DoAnMoi\DoAn\DoAn\bin\System.Numerics.Vectors.dll
+D:\Lưu trữ các đồ án môn học\Nhóm4_Website quản lý bán giày FILA\DoAnMoi\DoAn\DoAn\bin\System.Runtime.CompilerServices.Unsafe.dll
+D:\Lưu trữ các đồ án môn học\Nhóm4_Website quản lý bán giày FILA\DoAnMoi\DoAn\DoAn\bin\System.Security.Cryptography.Cng.dll
+D:\Lưu trữ các đồ án môn học\Nhóm4_Website quản lý bán giày FILA\DoAnMoi\DoAn\DoAn\bin\System.Threading.Tasks.Extensions.dll
+D:\Lưu trữ các đồ án môn học\Nhóm4_Website quản lý bán giày FILA\DoAnMoi\DoAn\DoAn\bin\System.Web.Helpers.dll
+D:\Lưu trữ các đồ án môn học\Nhóm4_Website quản lý bán giày FILA\DoAnMoi\DoAn\DoAn\bin\System.Web.Http.dll
+D:\Lưu trữ các đồ án môn học\Nhóm4_Website quản lý bán giày FILA\DoAnMoi\DoAn\DoAn\bin\System.Web.Http.WebHost.dll
+D:\Lưu trữ các đồ án môn học\Nhóm4_Website quản lý bán giày FILA\DoAnMoi\DoAn\DoAn\bin\System.Web.Mvc.dll
+D:\Lưu trữ các đồ án môn học\Nhóm4_Website quản lý bán giày FILA\DoAnMoi\DoAn\DoAn\bin\System.Web.Razor.dll
+D:\Lưu trữ các đồ án môn học\Nhóm4_Website quản lý bán giày FILA\DoAnMoi\DoAn\DoAn\bin\System.Web.Webpages.Deployment.dll
+D:\Lưu trữ các đồ án môn học\Nhóm4_Website quản lý bán giày FILA\DoAnMoi\DoAn\DoAn\bin\System.Web.Webpages.dll
+D:\Lưu trữ các đồ án môn học\Nhóm4_Website quản lý bán giày FILA\DoAnMoi\DoAn\DoAn\bin\System.Web.Webpages.Razor.dll
+D:\Lưu trữ các đồ án môn học\Nhóm4_Website quản lý bán giày FILA\DoAnMoi\DoAn\DoAn\bin\EntityFramework.xml
+D:\Lưu trữ các đồ án môn học\Nhóm4_Website quản lý bán giày FILA\DoAnMoi\DoAn\DoAn\bin\EntityFramework.SqlServer.xml
+D:\Lưu trữ các đồ án môn học\Nhóm4_Website quản lý bán giày FILA\DoAnMoi\DoAn\DoAn\bin\Microsoft.AspNet.Identity.Core.xml
+D:\Lưu trữ các đồ án môn học\Nhóm4_Website quản lý bán giày FILA\DoAnMoi\DoAn\DoAn\bin\Microsoft.Bcl.AsyncInterfaces.xml
+D:\Lưu trữ các đồ án môn học\Nhóm4_Website quản lý bán giày FILA\DoAnMoi\DoAn\DoAn\bin\Microsoft.Extensions.Configuration.xml
+D:\Lưu trữ các đồ án môn học\Nhóm4_Website quản lý bán giày FILA\DoAnMoi\DoAn\DoAn\bin\Microsoft.Extensions.Configuration.Abstractions.xml
+D:\Lưu trữ các đồ án môn học\Nhóm4_Website quản lý bán giày FILA\DoAnMoi\DoAn\DoAn\bin\Microsoft.Extensions.Configuration.Binder.xml
+D:\Lưu trữ các đồ án môn học\Nhóm4_Website quản lý bán giày FILA\DoAnMoi\DoAn\DoAn\bin\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+D:\Lưu trữ các đồ án môn học\Nhóm4_Website quản lý bán giày FILA\DoAnMoi\DoAn\DoAn\bin\Microsoft.Extensions.Http.xml
+D:\Lưu trữ các đồ án môn học\Nhóm4_Website quản lý bán giày FILA\DoAnMoi\DoAn\DoAn\bin\Microsoft.Extensions.Logging.xml
+D:\Lưu trữ các đồ án môn học\Nhóm4_Website quản lý bán giày FILA\DoAnMoi\DoAn\DoAn\bin\Microsoft.Extensions.Logging.Abstractions.xml
+D:\Lưu trữ các đồ án môn học\Nhóm4_Website quản lý bán giày FILA\DoAnMoi\DoAn\DoAn\bin\Microsoft.Extensions.Options.xml
+D:\Lưu trữ các đồ án môn học\Nhóm4_Website quản lý bán giày FILA\DoAnMoi\DoAn\DoAn\bin\Microsoft.Extensions.Primitives.xml
+D:\Lưu trữ các đồ án môn học\Nhóm4_Website quản lý bán giày FILA\DoAnMoi\DoAn\DoAn\bin\Microsoft.Owin.xml
+D:\Lưu trữ các đồ án môn học\Nhóm4_Website quản lý bán giày FILA\DoAnMoi\DoAn\DoAn\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\Lưu trữ các đồ án môn học\Nhóm4_Website quản lý bán giày FILA\DoAnMoi\DoAn\DoAn\bin\Microsoft.Owin.Security.xml
+D:\Lưu trữ các đồ án môn học\Nhóm4_Website quản lý bán giày FILA\DoAnMoi\DoAn\DoAn\bin\Microsoft.Owin.Security.Cookies.xml
+D:\Lưu trữ các đồ án môn học\Nhóm4_Website quản lý bán giày FILA\DoAnMoi\DoAn\DoAn\bin\Microsoft.Owin.Security.Google.xml
+D:\Lưu trữ các đồ án môn học\Nhóm4_Website quản lý bán giày FILA\DoAnMoi\DoAn\DoAn\bin\Newtonsoft.Json.xml
+D:\Lưu trữ các đồ án môn học\Nhóm4_Website quản lý bán giày FILA\DoAnMoi\DoAn\DoAn\bin\OpenAI_API.xml
+D:\Lưu trữ các đồ án môn học\Nhóm4_Website quản lý bán giày FILA\DoAnMoi\DoAn\DoAn\bin\System.Buffers.xml
+D:\Lưu trữ các đồ án môn học\Nhóm4_Website quản lý bán giày FILA\DoAnMoi\DoAn\DoAn\bin\System.Memory.xml
+D:\Lưu trữ các đồ án môn học\Nhóm4_Website quản lý bán giày FILA\DoAnMoi\DoAn\DoAn\bin\System.Net.Http.Formatting.xml
+D:\Lưu trữ các đồ án môn học\Nhóm4_Website quản lý bán giày FILA\DoAnMoi\DoAn\DoAn\bin\System.Numerics.Vectors.xml
+D:\Lưu trữ các đồ án môn học\Nhóm4_Website quản lý bán giày FILA\DoAnMoi\DoAn\DoAn\bin\System.Runtime.CompilerServices.Unsafe.xml
+D:\Lưu trữ các đồ án môn học\Nhóm4_Website quản lý bán giày FILA\DoAnMoi\DoAn\DoAn\bin\System.Security.Cryptography.Cng.xml
+D:\Lưu trữ các đồ án môn học\Nhóm4_Website quản lý bán giày FILA\DoAnMoi\DoAn\DoAn\bin\System.Threading.Tasks.Extensions.xml
+D:\Lưu trữ các đồ án môn học\Nhóm4_Website quản lý bán giày FILA\DoAnMoi\DoAn\DoAn\bin\System.Web.Http.xml
+D:\Lưu trữ các đồ án môn học\Nhóm4_Website quản lý bán giày FILA\DoAnMoi\DoAn\DoAn\bin\System.Web.Http.WebHost.xml
+D:\Lưu trữ các đồ án môn học\Nhóm4_Website quản lý bán giày FILA\DoAnMoi\DoAn\DoAn\bin\System.Web.Razor.xml
+D:\Lưu trữ các đồ án môn học\Nhóm4_Website quản lý bán giày FILA\DoAnMoi\DoAn\DoAn\bin\System.Web.Webpages.xml
+D:\Lưu trữ các đồ án môn học\Nhóm4_Website quản lý bán giày FILA\DoAnMoi\DoAn\DoAn\bin\System.Web.Webpages.Deployment.xml
+D:\Lưu trữ các đồ án môn học\Nhóm4_Website quản lý bán giày FILA\DoAnMoi\DoAn\DoAn\bin\System.Web.Webpages.Razor.xml
+D:\Lưu trữ các đồ án môn học\Nhóm4_Website quản lý bán giày FILA\DoAnMoi\DoAn\DoAn\bin\System.Web.Helpers.xml
+D:\Lưu trữ các đồ án môn học\Nhóm4_Website quản lý bán giày FILA\DoAnMoi\DoAn\DoAn\bin\System.Web.Mvc.xml
+D:\Lưu trữ các đồ án môn học\Nhóm4_Website quản lý bán giày FILA\DoAnMoi\DoAn\DoAn\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Lưu trữ các đồ án môn học\Nhóm4_Website quản lý bán giày FILA\DoAnMoi\DoAn\DoAn\obj\Debug\DoAn.csproj.AssemblyReference.cache
+D:\Lưu trữ các đồ án môn học\Nhóm4_Website quản lý bán giày FILA\DoAnMoi\DoAn\DoAn\obj\Debug\DoAn.csproj.CoreCompileInputs.cache
+D:\Lưu trữ các đồ án môn học\Nhóm4_Website quản lý bán giày FILA\DoAnMoi\DoAn\DoAn\obj\Debug\DoAn.csproj.CopyComplete
+D:\Lưu trữ các đồ án môn học\Nhóm4_Website quản lý bán giày FILA\DoAnMoi\DoAn\DoAn\obj\Debug\DoAn.dll
+D:\Lưu trữ các đồ án môn học\Nhóm4_Website quản lý bán giày FILA\DoAnMoi\DoAn\DoAn\obj\Debug\DoAn.pdb

@@ -1,0 +1,34 @@
+﻿@model IEnumerable<DoAn.Models.USER>
+
+@{
+    ViewBag.Title = "ShowUser";
+    Layout = "~/Views/Shared/AdminLayout.cshtml";
+}
+
+<h2>Danh sách tài khoản hệ thống</h2>
+
+<div class="container mt-4">
+    <table class="table table-bordered">
+        <thead class="thead-dark">
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.TaiKhoan)
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.TaiKhoan)
+                    </td>
+                    <td>
+                        @Html.ActionLink("Details", "ShowDetailUser", new { id = item.ID_KhachHang }, new { @class = "btn btn-info" }) |
+                        @Html.ActionLink("Edit", "EditUser", new { id = item.ID_KhachHang }, new { @class = "btn btn-warning" })
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
