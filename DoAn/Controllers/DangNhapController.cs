@@ -96,16 +96,15 @@ namespace DoAn.Controllers
                 return RedirectToAction("Index", "Admin");
             }
             else
-            {        
-                // Lưu thông tin người dùng vào Session
+            {
                 Session["TaiKhoan"] = user.TaiKhoan;
-
-                // Nếu là User, chuyển hướng đến trang chính của n  gười dùng
+                Session["ID_KhachHang"] = user.ID_KhachHang;  // Đảm bảo ID_KhachHang được lưu vào Session
                 return RedirectToAction("Index", "Home");
-                // Lưu thông tin người dùng vào Session
 
             }
         }
+
+
         public ActionResult DangKy()
         {
             return View();

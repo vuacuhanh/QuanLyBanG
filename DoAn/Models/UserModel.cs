@@ -8,6 +8,8 @@ namespace DoAn.Models
 {
     public class UserModel
     {
+        public int ID_KhachHang { get; set; }
+
         [Display(Name = "Họ tên")]
         public string HoTen { get; set; }
 

@@ -1,12 +1,12 @@
 ﻿using DoAn.Models;
 using System;
 using System.Collections.Generic;
-using System.Data;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
-using System.Data.Linq;
-using System.Data.Entity;
+using System.Configuration;
+using System.Data.SqlClient;
+using System.Data;
 
 namespace DoAn.Controllers
 {
@@ -14,7 +14,6 @@ namespace DoAn.Controllers
     {
         // GET: GioHang
         QLBGDataContext db = new QLBGDataContext();
-        private int soLuong;
 
         public ActionResult Index1()
         {
@@ -64,6 +63,7 @@ namespace DoAn.Controllers
             }
             return tsl;
         }
+
         private double ThanhTien()
         {
             double tt = 0;
@@ -74,6 +74,7 @@ namespace DoAn.Controllers
             }
             return tt;
         }
+
         public ActionResult GioHang()
         {
             if (Session["GioHang"] == null)
@@ -85,12 +86,14 @@ namespace DoAn.Controllers
             ViewBag.TongThanhTien = ThanhTien();
             return View(lstGioHang);
         }
+
         public ActionResult GioHangPar()
         {
             ViewBag.TongSoLuong = TongSoLuong();
 
             return View();
         }
+
         public ActionResult TangSoLuong(int id)
         {
             List<GioHang> lstGioHang = LayGioHang();
@@ -114,6 +117,7 @@ namespace DoAn.Controllers
 
             return RedirectToAction("GioHang");
         }
+
         public ActionResult XoaGioHang(int id)
         {
             List<GioHang> lstGioHang = LayGioHang();
@@ -127,173 +131,74 @@ namespace DoAn.Controllers
             return RedirectToAction("GioHang");
         }
 
-
+        // Phương thức Đặt hàng
         public ActionResult DatHang()
         {
-            // Lấy giỏ hàng hiện tại
+            if (Session["TaiKhoan"] == null)
+            {
+                return RedirectToAction("DangNhap", "DangNhap");
+            }
+
             List<GioHang> lstGioHang = LayGioHang();
-            // Kiểm tra giỏ hàng có sản phẩm không
             if (lstGioHang == null || lstGioHang.Count == 0)
             {
                 return RedirectToAction("Index1", "Home");
             }
 
-            // Lấy ID của khách hàng hiện tại
-            int khachHangId = GetCurrentKhachHangId();
-            // Tính tổng thành tiền
-            double tongThanhTien = ThanhTien();
-
-            // Tạo đối tượng đặt hàng
-            DatHang datHang = new DatHang
+            int idKhachHang = GetCurrentKhachHangId();
+            if (idKhachHang == 0)
             {
-                ID_KhachHang = khachHangId,
-                NgayDat = DateTime.Now,
-                TongThanhTien = tongThanhTien,
-                CTDatHangs = new List<CTDatHang>()
-            };
-
-            // Thêm các chi tiết đặt hàng từ giỏ hàng vào đối tượng đặt hàng
-            foreach (var item in lstGioHang)
-            {
-                CTDatHang chiTietDatHang = new CTDatHang
-                {
-                    ID_SanPham = item.ID_SanPham,
-                    SoLuong = item.SoLuong,
-                    DonViGia = (decimal)item.Gia
-                };
-                datHang.CTDatHangs.Add(chiTietDatHang);
+                return RedirectToAction("DangNhap", "DangNhap");
             }
 
-            // Thêm đơn hàng vào cơ sở dữ liệu
-            db.DatHangs.InsertOnSubmit(datHang);
-            db.SubmitChanges();
+            var sanPhamList = lstGioHang.Select(s => new {
+                ID_SanPham = s.ID_SanPham,
+                SoLuong = s.SoLuong,
+                DonGia = s.Gia
+            });
 
-            // Xóa giỏ hàng sau khi đặt hàng thành công
+            string sanPhamListJson = Newtonsoft.Json.JsonConvert.SerializeObject(sanPhamList);
+
+            string connectionString = ConfigurationManager.ConnectionStrings["QLBGConnectionString"].ConnectionString;
+
+            using (SqlConnection connection = new SqlConnection(connectionString))
+            {
+                SqlCommand command = new SqlCommand("sp_DatHang", connection);
+                command.CommandType = CommandType.StoredProcedure;
+
+                command.Parameters.AddWithValue("@ID_KhachHang", idKhachHang);
+                command.Parameters.AddWithValue("@NgayDat", DateTime.Now.Date);
+                command.Parameters.AddWithValue("@SoLuong", lstGioHang.Sum(s => s.SoLuong));
+                command.Parameters.AddWithValue("@SanPhamList", sanPhamListJson);
+
+                connection.Open();
+                SqlDataReader reader = command.ExecuteReader();
+
+                if (reader.Read())
+                {
+                    int idDatHang = Convert.ToInt32(reader["ID_DatHang"]);
+                    int idHoaDon = Convert.ToInt32(reader["ID_HoaDon"]);
+
+                    ViewBag.ID_DatHang = idDatHang;
+                    ViewBag.ID_HoaDon = idHoaDon;
+                    ViewBag.ThongBao = "Đặt hàng thành công!";
+                }
+
+                reader.Close();
+            }
+
             Session["GioHang"] = null;
 
-            // Trả về view đặt hàng thành công
             return View("DatHang");
         }
 
         private int GetCurrentKhachHangId()
         {
-            // Giả sử bạn đã có cách lấy ID khách hàng hiện tại từ session hoặc từ nguồn khác
-            // Ở đây tôi giả sử bạn đã lưu ID khách hàng vào session
-            return (int)Session["KhachHangId"];
-        }
-
-        public int AddDatHang(int khachHangId, double tongThanhTien)
-        {
-            DatHang datHang = new DatHang
+            if (Session["ID_KhachHang"] != null)
             {
-                ID_KhachHang = khachHangId,
-                NgayDat = DateTime.Now,
-                TongThanhTien = tongThanhTien
-            };
-
-            db.DatHangs.InsertOnSubmit(datHang);
-            db.SubmitChanges();
-
-            return datHang.ID_DatHang;
-        }
-
-        public void AddChiTietDatHang(int idDatHang, int idSanPham, int soLuong, double donViGia)
-        {
-            CTDatHang ctDatHang = new CTDatHang
-            {
-                ID_DatHang = idDatHang,
-                ID_SanPham = idSanPham,
-                SoLuong = soLuong,
-                DonViGia = (decimal)donViGia
-            };
-
-            db.CTDatHangs.InsertOnSubmit(ctDatHang);
-            db.SubmitChanges();
-        }
-
-
-
-        public List<GioHang> GetGioHang(string sessionId)
-        {
-            return Session[sessionId] as List<GioHang> ?? new List<GioHang>();
-        }
-
-        public GioHang GetSanPhamInGioHang(string sessionId, int idSanPham)
-        {
-            List<GioHang> lstGioHang = GetGioHang(sessionId);
-            return lstGioHang.SingleOrDefault(s => s.ID_SanPham == idSanPham);
-        }
-
-        public void AddSanPhamToGioHang(string sessionId, int idSanPham, int soLuong)
-        {
-            List<GioHang> lstGioHang = GetGioHang(sessionId);
-            GioHang sanPham = lstGioHang.SingleOrDefault(s => s.ID_SanPham == idSanPham);
-
-            if (sanPham == null)
-            {
-                sanPham = new GioHang(idSanPham);
-                sanPham.SoLuong = soLuong;
-                lstGioHang.Add(sanPham);
+                return (int)Session["ID_KhachHang"];
             }
-            else
-            {
-                sanPham.SoLuong += soLuong;
-            }
-
-            Session[sessionId] = lstGioHang;
-        }
-
-        public void UpdateSoLuongSanPham(string sessionId, int idSanPham, int soLuong)
-        {
-            List<GioHang> lstGioHang = GetGioHang(sessionId);
-            GioHang sanPham = lstGioHang.SingleOrDefault(s => s.ID_SanPham == idSanPham);
-
-            if (sanPham != null)
-            {
-                sanPham.SoLuong = soLuong;
-            }
-
-            Session[sessionId] = lstGioHang;
-        }
-
-        public void RemoveSanPhamFromGioHang(string sessionId, int idSanPham)
-        {
-            List<GioHang> lstGioHang = GetGioHang(sessionId);
-            GioHang sanPham = lstGioHang.SingleOrDefault(s => s.ID_SanPham == idSanPham);
-
-            if (sanPham != null)
-            {
-                lstGioHang.Remove(sanPham);
-            }
-
-            Session[sessionId] = lstGioHang;
-        }
-
-        public int GetTongSoLuong(string sessionId)
-        {
-            List<GioHang> lstGioHang = GetGioHang(sessionId);
-            return lstGioHang.Sum(s => s.SoLuong);
-        }
-
-        public double GetThanhTien(string sessionId)
-        {
-            List<GioHang> lstGioHang = GetGioHang(sessionId);
-            return lstGioHang.Sum(s => s.ThanhTien);
-        }
-
-        public void ClearGioHang(string sessionId)
-        {
-            Session[sessionId] = null;
-        }
-
-        public List<DatHang> GetAllDatHangs()
-        {
-            return db.DatHangs.ToList();
-        }
-
-        public DatHang GetDatHangById(int id)
-        {
-            return db.DatHangs.SingleOrDefault(dh => dh.ID_DatHang == id);
+            return 0;
         }
 
     }

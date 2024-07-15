@@ -12,7 +12,7 @@ namespace DoAn.Models
         public int ID_KhachHang { get; set; }
         public DateTime NgayDat { get; set; }
         public decimal SoLuong { get; set; }
-        public double TongThanhTien { get; internal set; }
+        public double TongThanhTien { get; set; }
         public List<CTDatHang> CTDatHangs { get; internal set; }
     }
 }

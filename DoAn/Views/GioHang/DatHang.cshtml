@@ -1,8 +1,14 @@
 ﻿@{
     ViewBag.Title = "DatHang";
-    Layout = "~/Views/Shared/LayoutPage.cshtml";
+    Layout = "~/Views/Shared/MainLayout.cshtml";
 }
 
 <div class="container d-flex flex-column align-items-center justify-content-center" style="height: 100vh;">
     <h2 class="text-center mt-4">ĐƠN HÀNG CỦA BẠN ĐÃ ĐƯỢC ĐẶT THÀNH CÔNG</h2>
+    <p class="text-center mt-2">Cảm ơn bạn đã đặt hàng tại cửa hàng của chúng tôi!</p>
+    <p class="text-center mt-2">Mã Đặt Hàng: <strong>@ViewBag.ID_DatHang</strong></p>
+    <p class="text-center mt-2">Mã Hóa Đơn: <strong>@ViewBag.ID_HoaDon</strong></p>
+    <p class="text-center mt-4">
+        <a href="@Url.Action("Index1", "Home")" class="btn btn-primary">Quay Về Trang Chủ</a>
+    </p>
 </div>
