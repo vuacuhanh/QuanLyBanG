@@ -31,7 +31,7 @@ namespace DoAn.Controllers
             return lstGioHang;
         }
 
-        public ActionResult ThemGioHang(int ms, string strURL, int quantity = 1)
+        public ActionResult ThemGioHang(int ms, string strURL, int quantity = 1, bool isBuyNow = false)
         {
             List<GioHang> lstGioHang = LayGioHang();
             GioHang SanPham = lstGioHang.Find(s => s.ID_SanPham == ms);
@@ -39,18 +39,27 @@ namespace DoAn.Controllers
             if (SanPham == null)
             {
                 SanPham = new GioHang(ms);
+                SanPham.SoLuong = quantity; // set số lượng theo quantity
                 lstGioHang.Add(SanPham);
             }
             else
             {
-                SanPham.SoLuong++;
+                SanPham.SoLuong += quantity; 
             }
 
-            // Update the session with the modified shopping cart
             Session["GioHang"] = lstGioHang;
 
-            // Redirect to the shopping cart page
-            return RedirectToAction("GioHang");
+            if (Request.IsAjaxRequest())
+            {
+                return Json(new { success = true }, JsonRequestBehavior.AllowGet);
+            }
+
+            if (isBuyNow)
+            {
+                return RedirectToAction("GioHang");
+            }
+
+            return Redirect(strURL);
         }
 
         public int TongSoLuong()

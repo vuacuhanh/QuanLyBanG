@@ -21,13 +21,7 @@
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin="" />
     <link rel="stylesheet" type="text/css" href="~/assets/css/slick.min.css">
     <link rel="stylesheet" type="text/css" href="~/assets/css/slick-theme.css">
-    <!--
-
-    TemplateMo 559 Zay Shop
-
-    https://templatemo.com/tm-559-zay-shop
-
-    -->
+    
 </head>
 <body>
     <!-- Start Top Nav -->
@@ -48,7 +42,7 @@
                 <div>
                     @if (!string.IsNullOrEmpty(Session["TaiKhoan"] as string))
                     {
-                        <span class="navbar-sm-brand text-light text-decoration-none">Chào mừng, @(Session["TaiKhoan"] as string)! | <a href="@Url.Action("ViewProfile", "Home")"style="text-decoration:none;color:aliceblue">Thông tin cá nhân</a> | <a href="@Url.Action("DangXuat", "DangNhap")"style="text-decoration:none;color:aliceblue">Đăng xuất</a></span>
+                        <span class="navbar-sm-brand text-light text-decoration-none">Chào mừng, @(Session["TaiKhoan"] as string)! | <a href="@Url.Action("ViewProfile", "Home")" style="text-decoration:none;color:aliceblue">Thông tin cá nhân</a> | <a href="@Url.Action("DangXuat", "DangNhap")" style="text-decoration:none;color:aliceblue">Đăng xuất</a></span>
                         <div>
                             @Html.Partial("UserPartial")
                         </div>
@@ -78,7 +72,7 @@
             <div class="align-self-center collapse navbar-collapse flex-fill  d-lg-flex justify-content-lg-between" id="templatemo_main_nav">
                 <div class="flex-fill">
                     <ul class="nav navbar-nav d-flex justify-content-between mx-lg-auto">
-                       
+
 
                         <li class="nav-item">
                             <a class="nav-link" href="~/Home/Index">Home</a>
@@ -92,7 +86,7 @@
                         <li class="nav-item">
                             <a class="nav-link" href="~/Home/shop">Shop</a>
                         </li>
-                       
+
 
                     </ul>
 
@@ -113,11 +107,20 @@
                         <i class="fa fa-fw fa-cart-arrow-down text-dark mr-1"></i>
                         <span class="position-absolute top-0 left-100 translate-middle badge rounded-pill bg-light text-dark">@ViewBag.TongSoLuong</span>
                     </a>
-                    <a class="nav-icon position-relative text-decoration-none" href="@Url.Action("ViewProfile", "Home")">
-                        <i class="fa fa-fw fa-user text-dark mr-3"></i>
-                        <span class="position-absolute top-0 left-100 translate-middle badge rounded-pill bg-light text-dark">+99</span>
-                    </a>
 
+                    <div class="nav-item dropdown">
+                        <a class="nav-icon position-relative text-decoration-none dropdown-toggle" href="#" id="profileDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="fa fa-fw fa-user text-dark mr-3"></i>
+                            <span class="position-absolute top-0 left-100 translate-middle badge rounded-pill bg-light text-dark">+9</span>
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="profileDropdown">
+                            <li><a class="dropdown-item" href="@Url.Action("ViewProfile","Home")">View Profile</a></li>
+                            <li><a class="dropdown-item" href="@Url.Action("ViewProfile","Home")">Order History</a></li>
+                            <li><a class="dropdown-item" href="@Url.Action("ViewProfile","Home")">Wish list</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="@Url.Action("ViewProfile","Home")">Logout</a></li>
+                        </ul>
+                    </div>
 
                 </div>
             </div>
@@ -202,6 +205,7 @@
     <script src="~/assets/js/custom.js"></script>
     <!-- Start Slider Script -->
     <script src="assets/js/slick.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script>
         $('#carousel-related-product').slick({
             infinite: true,
@@ -239,29 +243,56 @@
 
     </script>
     <script>
-    $(document).ready(function () {
-        // Giá trị số lượng ban đầu
-        var quantity = parseInt($("#var-value").text());
+        $(document).ready(function () {
+            // Giá trị số lượng ban đầu
+            var quantity = parseInt($("#var-value").text());
 
-        // Giảm số lượng
-        $("#btn-minus").click(function () {
-            if (quantity > 1) {
-                quantity--;
+            // Giảm số lượng
+            $("#btn-minus").click(function () {
+                if (quantity > 1) {
+                    quantity--;
+                    $("#var-value").text(quantity);
+                    $("#product-quanity").val(quantity);
+                }
+            });
+
+            // Tăng số lượng
+            $("#btn-plus").click(function () {
+                quantity++;
                 $("#var-value").text(quantity);
                 $("#product-quanity").val(quantity);
-            }
+            });
         });
 
-        // Tăng số lượng
-        $("#btn-plus").click(function () {
-            quantity++;
-            $("#var-value").text(quantity);
-            $("#product-quanity").val(quantity);
+    </script>
+    <script>
+    $(document).ready(function() {
+        $(".cart-action").click(function(e) {
+            e.preventDefault();
+
+            var action = $(this).data("action");
+            var productId = $(this).data("product-id");
+            var quantity = $("#var-value").text();
+
+            $.ajax({
+                url: '@Url.Action("ThemGioHang", "GioHang")',
+                type: 'GET',
+                data: { ms: productId, quantity: quantity },
+                success: function(response) {
+                    if (action === "add") {
+                        alert("Sản phẩm đã được thêm vào giỏ hàng");
+                        // Update cart count or other UI changes if needed
+                    } else if (action === "buy") {
+                        window.location.href = '@Url.Action("GioHang", "GioHang")';
+                    }
+                },
+                error: function(xhr, status, error) {
+                    alert("Có lỗi xảy ra, vui lòng thử lại sau.");
+                }
+            });
         });
     });
-
-</script>
-
+    </script>
 
 </body>
 </html>

@@ -130,13 +130,10 @@
                             </div>
                             <div class="row pb-3">
                                 <div class="col d-grid">
-                                    <a href="@Url.Action("ThemGioHang", "Home",new { ms = Model.ID_SanPham, strURL = Request.Url.ToString(), quantity = 1 })" class="btn btn-success btn-lg">ADD TO CART</a>
+                                    <button class="btn btn-success btn-lg cart-action" data-action="add" data-product-id="@Model.ID_SanPham">ADD TO CART</button>
                                 </div>
                                 <div class="col d-grid">
-                                    <a href="@Url.Action("ThemGioHang", "GioHang", new { ms = Model.ID_SanPham, strURL = Request.Url.ToString(), quantity = 1 })" class="btn btn-success btn-lg">
-                                        BUY NOW
-                                    </a>
-
+                                    <button class="btn btn-success btn-lg cart-action" data-action="buy" data-product-id="@Model.ID_SanPham">BUY NOW</button>
                                 </div>
                             </div>
                         </form>
@@ -147,3 +144,33 @@
         </div>
     </div>
 </section>
+
+<script>
+    $(document).ready(function() {
+        $(".cart-action").click(function(e) {
+            e.preventDefault();
+
+            var action = $(this).data("action");
+            var productId = $(this).data("product-id");
+            var quantity = $("#var-value").text();
+            var isBuyNow = action === "buy";
+
+            $.ajax({
+                url: '@Url.Action("ThemGioHang", "GioHang")',
+                type: 'GET',
+                data: { ms: productId, quantity: quantity, isBuyNow: isBuyNow },
+                success: function(response) {
+                    if (isBuyNow) {
+                        window.location.href = '@Url.Action("GioHang", "GioHang")';
+                    } else {
+                        alert("Sản phẩm đã được thêm vào giỏ hàng");
+                        // Update cart count or other UI changes if needed
+                    }
+                },
+                error: function(xhr, status, error) {
+                    alert("Có lỗi xảy ra, vui lòng thử lại sau.");
+                }
+            });
+        });
+    });
+</script>
