@@ -32,13 +32,17 @@
                     </ul>
                 </div>
                 <div class="col-md-6 pb-4">
-                    <div class="d-flex">
-                        <select class="form-control">
-                            <option>Featured</option>
-                            <option>A to Z</option>
-                            <option>Item</option>
-                        </select>
-                    </div>
+                    @using (Html.BeginForm("Shop", "Home", FormMethod.Get))
+                    {
+                        <div class="d-flex">
+                            <select class="form-control" id="sortOrder" name="sortOrder" onchange="this.form.submit()">
+                                <option value="Featured" @(ViewBag.SortOrder == "Featured" ? "selected" : "")>Featured</option>
+                                <option value="AtoZ" @(ViewBag.SortOrder == "AtoZ" ? "selected" : "")>A to Z</option>
+                                <option value="PriceHighLow" @(ViewBag.SortOrder == "PriceHighLow" ? "selected" : "")>Price: High-Low</option>
+                                <option value="PriceLowHigh" @(ViewBag.SortOrder == "PriceLowHigh" ? "selected" : "")>Price: Low-High</option>
+                            </select>
+                        </div>
+                    }
                 </div>
             </div>
             <div class="row">
@@ -57,7 +61,7 @@
                                     <h5 class="card-title">@item.TenSanPham</h5>
                                 }
                                 <p class="card-text text-danger">$<b>@item.DonViGia</b></p>
-                                
+
                             </div>
                         </div>
                     </div>
@@ -71,15 +75,15 @@
                     @for (int i = 1; i <= ViewBag.TotalPages; i++)
                     {
                         <li class="page-item @(i == ViewBag.CurrentPage ? "active" : "")">
-                            <a class="page-link rounded-0 mr-3 shadow-sm border-top-0 border-left-0 text-dark" href="@Url.Action("Shop", new { page = i })">@i</a>
+                            <a class="page-link rounded-0 mr-3 shadow-sm border-top-0 border-left-0 text-dark" href="@Url.Action("Shop", new { page = i, sortOrder = ViewBag.SortOrder })">@i</a>
                         </li>
                     }
                 </ul>
             </div>
         </div>
     </div>
-
 </div>
+
 <!-- End Content -->
 <!-- Start Brands -->
 <section class="bg-light py-5">
