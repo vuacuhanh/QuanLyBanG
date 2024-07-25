@@ -61,12 +61,14 @@
                                     <h5 class="card-title">@item.TenSanPham</h5>
                                 }
                                 <p class="card-text text-danger">$<b>@item.DonViGia</b></p>
-
+                                <a href="@Url.Action("XemChiTietSanPham", "Giay", new { mg = item.ID_SanPham })" class="btn btn-light btn-outline-dark ">View Details</a>
+                                <a href="#" class="btn btn-dark btn-outline-light cart-action mt-2" data-action="cart" data-product-id="@item.ID_SanPham">Add to Cart</a>
                             </div>
                         </div>
                     </div>
                 }
             </div>
+
         </div>
         <div class="row">
             <div class="col-12 text-center">
@@ -184,3 +186,33 @@
     </div>
 </section>
 <!--End Brands-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+    $(document).ready(function() {
+        $(".cart-action").click(function(e) {
+            e.preventDefault();
+
+            var action = $(this).data("action");
+            var productId = $(this).data("product-id");
+            var quantity = 1; // Assuming quantity is 1, you can change this logic as needed
+            var isBuyNow = action === "buy";
+
+            $.ajax({
+                url: '@Url.Action("ThemGioHang", "GioHang")',
+                type: 'GET',
+                data: { ms: productId, quantity: quantity, isBuyNow: isBuyNow },
+                success: function(response) {
+                    if (isBuyNow) {
+                        window.location.href = '@Url.Action("GioHang", "GioHang")';
+                    } else {
+                        alert("Sản phẩm đã được thêm vào giỏ hàng");
+                        // Update cart count or other UI changes if needed
+                    }
+                },
+                error: function(xhr, status, error) {
+                    alert("Có lỗi xảy ra, vui lòng thử lại sau.");
+                }
+            });
+        });
+    });
+</script>
