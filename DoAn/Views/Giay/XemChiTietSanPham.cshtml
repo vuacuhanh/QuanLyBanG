@@ -4,6 +4,7 @@
     Layout = "~/Views/Shared/MainLayout.cshtml";
 }
 
+<!-- Start Content -->
 <section class="bg-light">
     <div class="container pb-5">
         <div class="row">
@@ -24,6 +25,8 @@
                     <div id="multi-item-example" class="col-10 carousel slide carousel-multi-item" data-bs-ride="carousel">
                         <!--Start Slides-->
                         <div class="carousel-inner product-links-wap" role="listbox">
+
+                            <!--First slide-->
                             <!--First slide-->
                             <div class="carousel-item active">
                                 <div class="row justify-content-center align-items-center">
@@ -85,20 +88,17 @@
                         <p>@Model.DANHMUC.TenDanhMuc</p>
                         <ul class="list-inline">
                             <li class="list-inline-item">
-                                <h6>Available Color :</h6>
+                                <h6>Avaliable Color :</h6>
                             </li>
                             <li class="list-inline-item">
-                                <select class="form-control" id="MauSac" name="MauSac">
-                                    @foreach (var item in ViewBag.MauList as SelectList)
-                                    {
-                        <option value="@item.Value">@item.Text</option>}
-                                </select>
+                                <p class="text-muted"><strong>White / Black</strong></p>
                             </li>
                         </ul>
 
                         <h6></h6>
                         <ul class="list-unstyled pb-3">
                             <li>@Model.Mota</li>
+
                         </ul>
 
                         <form action="" method="GET">
@@ -108,12 +108,12 @@
                                     <ul class="list-inline pb-3">
                                         <li class="list-inline-item">
                                             Size :
-                                            <select class="form-control" id="Size" name="Size">
-                                                @foreach (var item in ViewBag.SizeList as SelectList)
-                                                {
-                                    <option value="@item.Value">@item.Text</option>}
-                                            </select>
+                                            <input type="hidden" name="product-size" id="product-size" value="S">
                                         </li>
+                                        <li class="list-inline-item"><span class="btn btn-success btn-size">39</span></li>
+                                        <li class="list-inline-item"><span class="btn btn-success btn-size">40</span></li>
+                                        <li class="list-inline-item"><span class="btn btn-success btn-size">41</span></li>
+                                        <li class="list-inline-item"><span class="btn btn-success btn-size">42</span></li>
                                     </ul>
                                 </div>
                                 <div class="col-auto">
@@ -155,35 +155,22 @@
             var quantity = $("#var-value").text();
             var isBuyNow = action === "buy";
 
-            // Xử lý thêm sản phẩm vào giỏ hàng hoặc mua ngay
             $.ajax({
-                url: '@Url.Action("AddToCart", "Cart")',
-                type: 'POST',
-                data: {
-                    productId: productId,
-                    quantity: quantity,
-                    isBuyNow: isBuyNow
-                },
-                success: function(result) {
+                url: '@Url.Action("ThemGioHang", "GioHang")',
+                type: 'GET',
+                data: { ms: productId, quantity: quantity, isBuyNow: isBuyNow },
+                success: function(response) {
                     if (isBuyNow) {
-                        window.location.href = '@Url.Action("Checkout", "Cart")';
+                        window.location.href = '@Url.Action("GioHang", "GioHang")';
                     } else {
-                        alert("Product added to cart successfully!");
+                        alert("Sản phẩm đã được thêm vào giỏ hàng");
+                        // Update cart count or other UI changes if needed
                     }
+                },
+                error: function(xhr, status, error) {
+                    alert("Có lỗi xảy ra, vui lòng thử lại sau.");
                 }
             });
-        });
-
-        $("#btn-minus").click(function() {
-            var quantity = parseInt($("#var-value").text());
-            if (quantity > 1) {
-                $("#var-value").text(quantity - 1);
-            }
-        });
-
-        $("#btn-plus").click(function() {
-            var quantity = parseInt($("#var-value").text());
-            $("#var-value").text(quantity + 1);
         });
     });
 </script>

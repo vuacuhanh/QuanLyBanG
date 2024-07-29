@@ -19,13 +19,11 @@ namespace DoAn.Controllers
                 return HttpNotFound();
             }
 
-            // Truy vấn danh sách màu sắc và kích thước
-            var mauList = db.MAUs.Select(m => new { ID = m.ID_Mau, Ten = m.TenMau }).ToList();
-            var sizeList = db.Sizes.Select(s => new { ID = s.ID_Size, Ten = s.Size1 }).ToList();
+            var mauList = db.MAUs.ToList();
+            var sizeList = db.Sizes.Select(s => new { s.ID_Size, s.Size1 }).ToList();
 
-            // Sử dụng SelectList để tạo danh sách cho ViewBag
-            ViewBag.MauList = new SelectList(mauList, "ID", "Ten");
-            ViewBag.SizeList = new SelectList(sizeList, "ID", "Ten");
+            ViewBag.MauList = new SelectList(mauList, "ID_Mau", "TenMau");
+            ViewBag.SizeList = new SelectList(sizeList, "ID_Size", "TenKichThuoc");
 
             return View(sanpham);
         }

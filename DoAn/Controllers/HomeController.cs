@@ -126,41 +126,20 @@ namespace DoAn.Controllers
             return View();
         }
 
+     
 
-        public ActionResult Shop(int page = 1, int pageSize = 9, string sortOrder = "Featured")
+        public ActionResult Shop(int page = 1, int pageSize = 9)
         {
             var totalItems = db.SANPHAMs.Count();
-            IQueryable<SANPHAM> sanphams = db.SANPHAMs;
-
-            // Apply sorting based on sortOrder parameter
-            switch (sortOrder)
-            {
-                case "AtoZ":
-                    sanphams = sanphams.OrderBy(s => s.TenSanPham);
-                    break;
-                case "PriceHighLow":
-                    sanphams = sanphams.OrderByDescending(s => s.DonViGia);
-                    break;
-                case "PriceLowHigh":
-                    sanphams = sanphams.OrderBy(s => s.DonViGia);
-                    break;
-                default:
-                    // Featured or default sorting
-                    sanphams = sanphams.OrderBy(s => s.TenSanPham); // Assuming Featured means sorting by name by default
-                    break;
-            }
-
-            var model = sanphams.Skip((page - 1) * pageSize).Take(pageSize).ToList();
+            var model = db.SANPHAMs.OrderBy(s => s.TenSanPham).Skip((page - 1) * pageSize).Take(pageSize).ToList();
 
             ViewBag.TotalItems = totalItems;
             ViewBag.CurrentPage = page;
             ViewBag.PageSize = pageSize;
             ViewBag.TotalPages = (int)Math.Ceiling((double)totalItems / pageSize);
-            ViewBag.SortOrder = sortOrder;
 
             return View(model);
         }
-
 
         public ActionResult ListSanPham()
         {
