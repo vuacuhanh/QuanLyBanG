@@ -2193,6 +2193,7 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>QLBG.dbml</DependentUpon>
     </Compile>
+    <Compile Include="Models\SIZE.cs" />
     <Compile Include="Models\UserModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ViewModel\ChiTietDatHang.cs" />

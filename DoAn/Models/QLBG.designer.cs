@@ -164,6 +164,7 @@ namespace DoAn.Models
 
         public object DatHangs { get; internal set; }
         public object CTDatHangs { get; internal set; }
+        public object SIZES { get; internal set; }
 
         internal void SaveChanges()
         {

@@ -6,6 +6,8 @@ using System.Web.Mvc;
 using DoAn.Models;
 using DoAn.ViewModel;
 using System.Net;
+using System.IO;
+
 namespace DoAn.Controllers
 {
     public class AdminController : Controller
@@ -127,14 +129,31 @@ namespace DoAn.Controllers
 
         // POST: Product/Create
         [HttpPost]
-        public ActionResult Create(SANPHAM sanPham)
+        public ActionResult Create(SANPHAM sanPham, HttpPostedFileBase ImageFile)
         {
-
             if (db.SANPHAMs.Any(a => a.ID_SanPham == sanPham.ID_SanPham))
             {
-                ViewBag.TB = "Trùng id!!!";
+                ViewBag.TB = "Trùng id!!!";
                 return View();
+            }
 
+            if (ImageFile != null && ImageFile.ContentLength > 0)
+            {
+                // Lưu tệp ảnh vào thư mục trên server
+                string fileName = Path.GetFileName(ImageFile.FileName);
+                string path = Path.Combine(Server.MapPath("~/Content/Images"), fileName);
+                ImageFile.SaveAs(path);
+
+                // Thêm thông tin ảnh vào cơ sở dữ liệu
+                HINHANH anh = new HINHANH
+                {
+                    AnhChinh = fileName
+                };
+                db.HINHANHs.InsertOnSubmit(anh);
+                db.SubmitChanges();
+
+                // Gán ID của ảnh vừa lưu vào sản phẩm
+                sanPham.ID_Anh = anh.ID_Anh;
             }
 
             if (ModelState.IsValid)

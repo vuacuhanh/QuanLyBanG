@@ -15,8 +15,6 @@ namespace DoAn.ViewModel
         public string TenAnhChinh { set; get; }
        
         public string MoTa { set; get; }
-
-    
         public decimal? gia { set; get; }
        
         public int? SoLuongTon { set; get; }
