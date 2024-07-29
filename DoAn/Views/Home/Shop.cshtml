@@ -32,13 +32,17 @@
                     </ul>
                 </div>
                 <div class="col-md-6 pb-4">
-                    <div class="d-flex">
-                        <select class="form-control">
-                            <option>Featured</option>
-                            <option>A to Z</option>
-                            <option>Item</option>
-                        </select>
-                    </div>
+                    @using (Html.BeginForm("Shop", "Home", FormMethod.Get))
+                    {
+                        <div class="d-flex">
+                            <select class="form-control" id="sortOrder" name="sortOrder" onchange="this.form.submit()">
+                                <option value="Featured" @(ViewBag.SortOrder == "Featured" ? "selected" : "")>Featured</option>
+                                <option value="AtoZ" @(ViewBag.SortOrder == "AtoZ" ? "selected" : "")>A to Z</option>
+                                <option value="PriceHighLow" @(ViewBag.SortOrder == "PriceHighLow" ? "selected" : "")>Price: High-Low</option>
+                                <option value="PriceLowHigh" @(ViewBag.SortOrder == "PriceLowHigh" ? "selected" : "")>Price: Low-High</option>
+                            </select>
+                        </div>
+                    }
                 </div>
             </div>
             <div class="row">
@@ -57,12 +61,14 @@
                                     <h5 class="card-title">@item.TenSanPham</h5>
                                 }
                                 <p class="card-text text-danger">$<b>@item.DonViGia</b></p>
-                                
+                                <a href="@Url.Action("XemChiTietSanPham", "Giay", new { mg = item.ID_SanPham })" class="btn btn-light btn-outline-dark ">View Details</a>
+                                <a href="#" class="btn btn-dark btn-outline-light cart-action mt-2" data-action="cart" data-product-id="@item.ID_SanPham">Add to Cart</a>
                             </div>
                         </div>
                     </div>
                 }
             </div>
+
         </div>
         <div class="row">
             <div class="col-12 text-center">
@@ -71,15 +77,15 @@
                     @for (int i = 1; i <= ViewBag.TotalPages; i++)
                     {
                         <li class="page-item @(i == ViewBag.CurrentPage ? "active" : "")">
-                            <a class="page-link rounded-0 mr-3 shadow-sm border-top-0 border-left-0 text-dark" href="@Url.Action("Shop", new { page = i })">@i</a>
+                            <a class="page-link rounded-0 mr-3 shadow-sm border-top-0 border-left-0 text-dark" href="@Url.Action("Shop", new { page = i, sortOrder = ViewBag.SortOrder })">@i</a>
                         </li>
                     }
                 </ul>
             </div>
         </div>
     </div>
-
 </div>
+
 <!-- End Content -->
 <!-- Start Brands -->
 <section class="bg-light py-5">
@@ -180,3 +186,33 @@
     </div>
 </section>
 <!--End Brands-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+    $(document).ready(function() {
+        $(".cart-action").click(function(e) {
+            e.preventDefault();
+
+            var action = $(this).data("action");
+            var productId = $(this).data("product-id");
+            var quantity = 1; // Assuming quantity is 1, you can change this logic as needed
+            var isBuyNow = action === "buy";
+
+            $.ajax({
+                url: '@Url.Action("ThemGioHang", "GioHang")',
+                type: 'GET',
+                data: { ms: productId, quantity: quantity, isBuyNow: isBuyNow },
+                success: function(response) {
+                    if (isBuyNow) {
+                        window.location.href = '@Url.Action("GioHang", "GioHang")';
+                    } else {
+                        alert("Sản phẩm đã được thêm vào giỏ hàng");
+                        // Update cart count or other UI changes if needed
+                    }
+                },
+                error: function(xhr, status, error) {
+                    alert("Có lỗi xảy ra, vui lòng thử lại sau.");
+                }
+            });
+        });
+    });
+</script>
