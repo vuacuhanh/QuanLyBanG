@@ -62,14 +62,16 @@ body, ul, li, p, a, label, input, div {
 }
 .pagination .page-link:hover {color: #000;}
 .pagination .page-link:hover, .pagination .page-link.active {
-  background-color: #69bb7e;
-  color: #fff;
+    background-color: #5474de;
+    color: #fff;
 }
 /* Nav */
 #templatemo_nav_top { min-height: 40px;}
 #templatemo_nav_top * { font-size: .9em !important;}
 #templatemo_main_nav a { color: #212934;}
-#templatemo_main_nav a:hover { color: #69bb7e;}
+    #templatemo_main_nav a:hover {
+        color: #5474de;
+    }
 #templatemo_main_nav .navbar .nav-icon { margin-right: 20px;}
 
 /* Hero Carousel */
@@ -114,13 +116,13 @@ body, ul, li, p, a, label, input, div {
 }
 /* Carousel Hero */
 #template-mo-zay-hero-carousel .carousel-indicators li {
-  margin-top: -50px;
-  background-color: #59ab6e;
+    margin-top: -50px;
+    background-color: #5474de;
 }
 #template-mo-zay-hero-carousel .carousel-control-next i,
 #template-mo-zay-hero-carousel .carousel-control-prev i {
-  color: #59ab6e !important;
-  font-size: 2.8em !important;
+    color: #5474de !important;
+    font-size: 2.8em !important;
 }
 /* Carousel Brand */
 .tempaltemo-carousel .h1 {
